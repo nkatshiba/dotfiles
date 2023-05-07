@@ -2,11 +2,11 @@ local wezterm = require("wezterm")
 local act = wezterm.action
 
 return {
-	font = wezterm.font("IosevkaTerm Nerd Font", { weight = "Bold" }),
-	-- font = wezterm.font("CaskaydiaCove Nerd Font Mono", { weight = "Bold" }),
+	-- font = wezterm.font("IosevkaTerm Nerd Font", { weight = "Bold" }),
+	font = wezterm.font("CaskaydiaCove Nerd Font Mono", { weight = "Bold" }),
 	-- font = wezterm.font("Iosevka Nerd Font Mono", { weight = "Bold" }),
 
-	font_size = 10.5,
+	font_size = 10.0,
 	-- Appearance
 	color_scheme = "astromouse (terminal.sexy)",
 	enable_tab_bar = false,
