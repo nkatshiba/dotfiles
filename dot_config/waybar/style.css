@@ -311,7 +311,7 @@ window#waybar {
 
 /* #battery {} */
 #battery.full {
-  background-color: @green;
+  background-color: #fcb5ab;
   color: @crust;
 }
 
@@ -320,7 +320,7 @@ window#waybar {
 }
 
 #battery.warning {
-  background-color: @yellow;
+  background-color: #f3c583;
   color: @crust;
 }
 
