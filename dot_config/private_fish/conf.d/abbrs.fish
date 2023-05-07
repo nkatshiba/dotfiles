@@ -32,6 +32,9 @@ abbr -a lsa4 'lsd -a --tree --depth 3'
 abbr -a lsss 'lsd -l --total-size --sizesort'
 abbr -a lsat 'clear && lsd -a --tree'
 
+# Source / Reloading
+abbr -a wbr 'nohup waybar -c config -s style.css > /dev/null 2>&1 &'
+
 # PS
 abbr -a psm10 'ps -eo pid,ppid,cmd,comm,%mem,%cpu --sort=-%mem | head -10'
 abbr -a psm50 'ps -eo pid,ppid,cmd,comm,%mem,%cpu --sort=-%mem | head -50'
