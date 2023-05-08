@@ -54,7 +54,8 @@ abbr -a xx 'cd ~/.6x/ && clear && ls -a'
 abbr -a pp 'vi ~/.6x/.pp.md'
 abbr -a play 'clear && cd $HOME/src/PLAYGROUND/ && ls'
 abbr -a src 'cd ~/src/'
-abbr -a abba 'vi ~/.config/fish/conf.d/abbrs.fish'
+abbr -a abbrs 'vi ~/.config/fish/conf.d/abbrs.fish'
+abbr -a mlv mullvad
 
 # Apps
 abbr -a ccat 'command cat'

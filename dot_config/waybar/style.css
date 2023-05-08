@@ -1,4 +1,4 @@
-@import "catppuccin_mocha.css";
+@import "colors.css";
 
 * {
   font-family: CaskaydiaCove Nerd Font Mono;
@@ -370,12 +370,6 @@ window#waybar {
 
 #idle_inhibitor {
     background-color: #2d3436;
-    border-radius: 0px;
-}
-
-#idle_inhibitor.activated {
-    background-color: #ecf0f1;
-    color: #2d3436;
     padding: 1px 8px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -384,8 +378,18 @@ window#waybar {
     border-radius: 5px;
 }
 
-/* -------------------------------------------------------------------------------- */
+#idle_inhibitor.activated {
+    background-color: #ecf0f1;
+    color: #2d3436;
+}
 
+#idle_inhibitor.deactivated {
+    /* background-color: @transparent; */
+    background-color: #800000;
+    color: #2d3436;
+    border-color: #fff;
+}
+/* -------------------------------------------------------------------------------- */
 #custom-weather {
   background-color: #89dceb;
   color: @crust;
