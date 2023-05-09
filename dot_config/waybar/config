@@ -38,12 +38,14 @@
 
   // Modules center
   "modules-center": [
-    "hyprland/window",
-  ],
+    "tray",
+    "battery"
+    //"hyprland/window",
+    //"clock"
+   ],
 
   // Modules right
   "modules-right": [
-    "tray",
     "custom/vpn_check",
     "custom/weather",
     "backlight",
@@ -54,7 +56,6 @@
     //"network",
     "network#wlo1",
     "network#eno1",
-    "battery",
     "clock"
     //"custom/powermenu"
   ],

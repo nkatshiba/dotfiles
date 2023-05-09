@@ -121,3 +121,4 @@ netcat
 qbit
 rofi
 tofi
+dunst

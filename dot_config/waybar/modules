@@ -130,7 +130,7 @@
     "interval": 1,
     "interface": "wlan0",
     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰖩"],
-    "format-wifi": "{icon} {essid}",
+    "format-wifi": "{icon} {signalStrength}%",
     // "format-disconnected": "󰤮",
     "format-disconnected": "",
     // "format-alt": "{icon} {essid} | 󱑽 {signalStrength}% {signaldBm} dBm {frequency} MHz",
