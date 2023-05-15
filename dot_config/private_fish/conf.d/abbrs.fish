@@ -149,3 +149,7 @@ abbr -a sshnkat ssh root@174.138.101.143
 
 # ALMA
 abbr -a alma 'cd /home/abty/src/python/ALMA/Alma-bachelor-project'
+
+# Unsorted
+abbr -a mwa mongotimer
+abbr -a mti 'mongotimer -e '

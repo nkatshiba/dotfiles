@@ -33,11 +33,11 @@
     "cpu",
     "memory",
     "disk",
-    "idle_inhibitor"
   ],
 
   // Modules center
   "modules-center": [
+    "idle_inhibitor",
     "tray",
     "battery"
     //"hyprland/window",

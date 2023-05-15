@@ -122,3 +122,8 @@ qbit
 rofi
 tofi
 dunst
+cursor
+cursor-bin
+obsidian
+obsidian
+electron
