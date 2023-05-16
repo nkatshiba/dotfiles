@@ -175,7 +175,7 @@ window#waybar {
 /* -------------------------------------------------------------------------------- */
 
 #disk {
-  background-color: @sapphire;
+  background-color: @yellow;
   color: @crust;
 }
 
@@ -186,7 +186,7 @@ window#waybar {
 /* -------------------------------------------------------------------------------- */
 
 #memory {
-  background-color: @green;
+  background-color: @peach;
   color: @crust;
 }
 
@@ -208,7 +208,7 @@ window#waybar {
 /* -------------------------------------------------------------------------------- */
 
 #pulseaudio.audio {
-  background-color: @mauve;
+  background-color: @green;
   color: @crust;
 }
 
@@ -311,7 +311,7 @@ window#waybar {
 
 /* #battery {} */
 #battery.full {
-  background-color: #fcb5ab;
+  background-color: @rosewater;
   color: @crust;
 }
 
@@ -351,8 +351,9 @@ window#waybar {
 /* -------------------------------------------------------------------------------- */
 
 #clock {
-  background-color: @lavender;
-  color: @crust;
+  background-color: @base;
+  /* color: @crust; */
+  color: @pinken;
 }
 
 #clock:hover {
@@ -362,14 +363,16 @@ window#waybar {
 /* -------------------------------------------------------------------------------- */
 
 #custom-vpn_check {
-  background-color: #89dceb;
+  /* background-color: #89dceb; */
+  background-color: @rosewater;
   color: @crust;
 }
 
 /* -------------------------------------------------------------------------------- */
 
 #idle_inhibitor {
-    background-color: #2d3436;
+    /* background-color: #2d3436; */
+    background-color: @flamingo;
     padding: 1px 8px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -377,10 +380,9 @@ window#waybar {
     margin-right: 2px;
     border-radius: 5px;
 }
-
 #idle_inhibitor.activated {
-    background-color: #ecf0f1;
-    color: #2d3436;
+    background-color: @green;
+    color: @crust;
 }
 
 #idle_inhibitor.deactivated {
@@ -391,7 +393,7 @@ window#waybar {
 }
 /* -------------------------------------------------------------------------------- */
 #custom-weather {
-  background-color: #89dceb;
+  background-color: @overlay2;
   color: @crust;
 }
 

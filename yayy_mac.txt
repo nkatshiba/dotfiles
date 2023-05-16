@@ -127,3 +127,17 @@ cursor-bin
 obsidian
 obsidian
 electron
+typeracer
+typeracer
+glow
+mdt
+caprine
+nyancat
+kabmat
+nb
+nmap
+pandoc
+the_silver
+catimg
+python-pygments
+termpdf

@@ -10,6 +10,18 @@
 ##   qute://help/configuring.html
 ##   qute://help/settings.html
 
+
+## Dracula colorscheme ##
+import dracula.draw
+
+dracula.draw.blood(c, {
+    'spacing': {
+        'vertical': 6,
+        'horizontal': 8
+    }
+})
+#########################
+
 ## This is here so configs done via the GUI are still loaded.
 ## Remove it to not load settings done via the GUI.
 config.load_autoconfig(True)
@@ -2539,3 +2551,4 @@ def filter_yt(info: interceptor.Request):
 
 
 interceptor.register(filter_yt)
+

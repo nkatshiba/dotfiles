@@ -30,33 +30,32 @@
   "modules-left": [
     "wlr/workspaces",
     "hyprland/submap",
+    "tray",
     "cpu",
     "memory",
-    "disk",
+    "disk"
   ],
 
   // Modules center
   "modules-center": [
-    "idle_inhibitor",
-    "tray",
+    "pulseaudio#audio",
+    "clock",
     "battery"
     //"hyprland/window",
-    //"clock"
    ],
 
   // Modules right
   "modules-right": [
     "custom/vpn_check",
-    "custom/weather",
-    "backlight",
-    //"pulseaudio",
-    "pulseaudio#microphone",
-    "pulseaudio#audio",
-    //"bluetooth",
-    //"network",
+    "idle_inhibitor",
     "network#wlo1",
     "network#eno1",
-    "clock"
-    //"custom/powermenu"
+    "backlight",
+    "custom/weather",
+    "pulseaudio#microphone"
+    //"pulseaudio",
+    //"bluetooth",
+    //"network",
+    //"custom/powermenu",
   ],
 }

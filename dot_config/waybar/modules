@@ -177,8 +177,9 @@
   },
   "clock": {
     "interval": 1,
-    "format": " {:%H:%M}",
-    //"format": "󰥔 {:%I:%M %p}",
+    "format": " {:%H:%M:%S | %d/%m}",
+    //"format": "󰥔 {:%H:%M}",
+    //"format": "󰥔 {:%I:%M %p}",
     // "format-alt": "{:󰣆 %A, %B %d | 󰥔 %I:%M:%S %p}",
     "on-click": "",
     "tooltip": true,
