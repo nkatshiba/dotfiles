@@ -38,9 +38,9 @@
 
   // Modules center
   "modules-center": [
-    "pulseaudio#audio",
+    "battery",
     "clock",
-    "battery"
+    "pulseaudio#audio"
     //"hyprland/window",
    ],
 

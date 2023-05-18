@@ -208,7 +208,8 @@ window#waybar {
 /* -------------------------------------------------------------------------------- */
 
 #pulseaudio.audio {
-  background-color: @green;
+  background-color: #E475A5;
+  /* background-color: @green; */
   color: @crust;
 }
 
@@ -351,9 +352,10 @@ window#waybar {
 /* -------------------------------------------------------------------------------- */
 
 #clock {
-  background-color: @base;
-  /* color: @crust; */
-  color: @pinken;
+  /* background-color: @base; */
+  background-color: #fff;
+  color: @crust;
+  /* color: @rosewater; */
 }
 
 #clock:hover {
