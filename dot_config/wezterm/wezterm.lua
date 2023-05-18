@@ -2,9 +2,13 @@ local wezterm = require("wezterm")
 local act = wezterm.action
 
 return {
+
+	-- Wayland
+	enable_wayland = true, -- default: true
+
 	-- font = wezterm.font("IosevkaTerm Nerd Font", { weight = "Bold" }),
-	font = wezterm.font("CaskaydiaCove Nerd Font Mono", { weight = "Bold" }),
 	-- font = wezterm.font("Iosevka Nerd Font Mono", { weight = "Bold" }),
+	font = wezterm.font("CaskaydiaCove Nerd Font Mono", { weight = "Bold" }),
 
 	font_size = 10.75,
 	-- Appearance
