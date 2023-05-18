@@ -58,7 +58,7 @@ abbr -a mlv mullvad
 
 # Apps
 abbr -a ccat 'command cat'
-abbr -a cpick hyprpicker
+abbr -a ca hyprpicker
 abbr -a kalk kalker-linux
 abbr -a jj z
 abbr -a j z
@@ -155,3 +155,4 @@ abbr -a mwa mongotimer
 abbr -a mti 'mongotimer -e '
 abbr -a mdt "mdt --prompt MDT: --color #f2c2d2"
 abbr -a cell celluloid
+abbr -a ww 'killall waybar && sleep 0.2 && hyprctl dispatch exec waybar && clear && echo "exec waybar at: ---" (date +'%H:%M')'
