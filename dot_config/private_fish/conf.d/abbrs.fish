@@ -153,3 +153,4 @@ abbr -a alma 'cd /home/abty/src/python/ALMA/Alma-bachelor-project'
 abbr -a mwa mongotimer
 abbr -a mti 'mongotimer -e '
 abbr -a mdt "mdt --prompt MDT: --color #f2c2d2"
+abbr -a cell celluloid

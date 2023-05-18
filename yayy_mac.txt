@@ -141,3 +141,15 @@ the_silver
 catimg
 python-pygments
 termpdf
+vlc
+jellyfin
+jellyfin-bin
+-Rs jellyfin-bin
+jellyfin-bin
+jellyfin-
+nginx
+haruna
+clapper
+celluloid
+ckbnext
+ckb-next

@@ -231,11 +231,12 @@ c.auto_save.session = True
 # ## Background color for hints. Note that you can use a `rgba(...)` value
 # ## for transparency.
 # ## Type: QssColor
-c.colors.hints.bg = 'qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 247, 133, 0.8), stop:1 rgba(255, 197, 66, 0.8))'
+c.colors.hints.bg = '#FCB5AB'
 
 # ## Font color for hints.
 # ## Type: QssColor
-# c.colors.hints.fg = 'black'
+# c.colors.hints.fg = '#09D6A0'
+c.colors.hints.fg = '#000000'
 
 # ## Font color for the matched part of hints.
 # ## Type: QtColor
@@ -243,7 +244,7 @@ c.colors.hints.bg = 'qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 24
 
 # ## Background color of the keyhint widget.
 # ## Type: QssColor
-# c.colors.keyhint.bg = 'rgba(0, 0, 0, 80%)'
+# c.colors.keyhint.bg = '#FCB5AB'
 
 # ## Text color for the keyhint widget.
 # ## Type: QssColor
@@ -1370,8 +1371,8 @@ c.editor.encoding = 'utf-8'
 # ## CSS border value for hints.
 # ## Type: String
 
-# c.hints.border = '1px solid #E3BE23'
-c.hints.border = '1px solid #A82C86'
+c.hints.border = '1px solid #09D6A0'
+# c.hints.border = '5px solid #A82C86'
 
 # ## Characters used for hint strings.
 # ## Type: UniqueCharString
@@ -2202,7 +2203,7 @@ c.url.start_pages = ['https://klockren.nu/']
 
 # ## Default zoom level.
 # ## Type: Perc
-c.zoom.default = '75%'
+c.zoom.default = '90%'
 
 # ## Available zoom levels.
 # ## Type: List of Perc
@@ -2236,7 +2237,8 @@ config.bind('para', 'open -b https://paraphrasetool.com/')
 # config.bind(';b', 'hint all tab-bg')
 # config.bind(';d', 'hint links download')
 # config.bind(';f', 'hint all tab-fg')
-# config.bind(';h', 'hint all hover')
+config.bind('<Alt-F>', 'hint all hover')
+config.bind('D', 'hint all hover')
 # config.bind(';i', 'hint images')
 # config.bind(';o', 'hint links fill :open {hint-url}')
 config.bind('<Ctrl-F>', 'hint --rapid links tab-bg')
@@ -2259,8 +2261,10 @@ config.bind('<Ctrl-F>', 'hint --rapid links tab-bg')
 # config.bind('<Ctrl-F5>', 'reload -f')
 # config.bind('<Ctrl-F>', 'scroll-page 0 1')
 # config.bind('<Ctrl-N>', 'open -w')
-# config.bind('<Ctrl-PgDown>', 'tab-next')
-# config.bind('<Ctrl-PgUp>', 'tab-prev')
+# config.bind('1', 'tab-next')
+# config.bind('2', 'tab-prev')
+# config.bind('3', 'hint all tab')
+# config.bind('4', 'tab-close')
 # config.bind('<Ctrl-Q>', 'quit')
 # config.bind('<Ctrl-Return>', 'selection-follow -t')
 # config.bind('<Ctrl-Shift-N>', 'open -p')
@@ -2271,7 +2275,6 @@ config.bind('<Ctrl-F>', 'hint --rapid links tab-bg')
 # config.bind('<Ctrl-Tab>', 'tab-focus last')
 # config.bind('<Ctrl-U>', 'scroll-page 0 -0.5')
 # config.bind('<Ctrl-V>', 'mode-enter passthrough')
-# config.bind('<Ctrl-W>', 'tab-close')
 # config.bind('<Ctrl-X>', 'navigate decrement')
 # config.bind('<Ctrl-^>', 'tab-focus last')
 # config.bind('<Ctrl-h>', 'home')
@@ -2289,7 +2292,6 @@ config.bind('<Ctrl-F>', 'hint --rapid links tab-bg')
 # config.bind('B', 'set-cmd-text -s :quickmark-load -t')
 # config.bind('D', 'tab-close -o')
 # config.bind('F', 'hint all tab')
-config.bind('ä', 'hint all tab')
 # config.bind('G', 'scroll-to-perc')
 # config.bind('H', 'back')
 config.bind('J', 'tab-prev')
@@ -2300,7 +2302,7 @@ config.bind('K', 'tab-next')
 config.bind('O', 'set-cmd-text -s :open -b')
 config.bind('öö', 'set-cmd-text -s :open -p')
 # config.bind('Pp', 'open -t -- {primary}')
-config.bind('PP', 'open -t -- {clipboard}')
+config.bind('pp', 'open -t -- {clipboard}')
 # config.bind('R', 'reload -f')
 # config.bind('Sb', 'bookmark-list --jump')
 # config.bind('Sh', 'history')
@@ -2319,6 +2321,7 @@ config.bind('b', 'set-cmd-text -s :quickmark-load')
 config.bind('cd', 'download-clear')
 config.bind('co', 'tab-only')
 config.bind('d', 'tab-close')
+# config.bind('ff', 'tab-close')
 # config.bind('f', 'hint')
 # config.bind('g$', 'tab-focus -1')
 # config.bind('g0', 'tab-focus 1')
@@ -2494,7 +2497,7 @@ config.bind('r', 'reload')
 # config.bind('<Shift-Ins>', 'insert-text -- {primary}', mode='insert')
 
 # ## Bindings for passthrough mode
-# config.bind('<Shift-Escape>', 'mode-leave', mode='passthrough')
+# config.bind('Escape', 'mode-leave', mode='passthrough')
 
 # ## Bindings for prompt mode
 # config.bind('<Alt-B>', 'rl-backward-word', mode='prompt')
