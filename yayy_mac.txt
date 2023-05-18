@@ -96,7 +96,6 @@ clang
 wayprompt-git
 gnome-keyring
 nwg-look
-nwg-look
 iosevka-term
 nwg-look
 ripgrep
@@ -113,8 +112,6 @@ hex
 pastel
 motrix
 qbittorr
-qbittorr
-qbittorr
 vuetorrent
 jackett
 netcat
@@ -122,12 +119,9 @@ qbit
 rofi
 tofi
 dunst
-cursor
 cursor-bin
 obsidian
-obsidian
 electron
-typeracer
 typeracer
 glow
 mdt
@@ -144,12 +138,16 @@ termpdf
 vlc
 jellyfin
 jellyfin-bin
--Rs jellyfin-bin
-jellyfin-bin
-jellyfin-
 nginx
 haruna
 clapper
 celluloid
-ckbnext
 ckb-next
+pastel
+gnome-themes-standard
+rocketchat-client-bin
+rocketchat-server
+rocketchat-server
+rocketchat-server
+paper-icon-theme
+paper-gtk-theme-git
