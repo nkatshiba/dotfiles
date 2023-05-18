@@ -30,7 +30,7 @@ set -g hydro_color_duration '#7B68EE'
 set -g fish_prompt_pwd_dir_length 3
 
 
-
+# complete -c yaya -a "(paru -Ss)"
 
 # Paths
 ## phind.com nativefier app
