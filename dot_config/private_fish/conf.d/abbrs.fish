@@ -58,7 +58,7 @@ abbr -a mlv mullvad
 
 # Apps
 abbr -a ccat 'command cat'
-abbr -a ca hyprpicker
+abbr -a caa hyprpicker
 abbr -a kalk kalker-linux
 abbr -a jj z
 abbr -a j z
