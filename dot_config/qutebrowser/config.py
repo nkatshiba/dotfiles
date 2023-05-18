@@ -406,11 +406,11 @@ c.colors.hints.fg = '#000000'
 
 # ## Background color of the tab bar.
 # ## Type: QssColor
-# c.colors.tabs.bar.bg = '#555555'
+# c.colors.tabs.bar.bg = '#ffffff'
 
 # ## Background color of unselected even tabs.
 # ## Type: QtColor
-# c.colors.tabs.even.bg = 'darkgrey'
+# c.colors.tabs.even.bg = '#ffffff'
 
 # ## Foreground color of unselected even tabs.
 # ## Type: QtColor
@@ -447,23 +447,23 @@ c.colors.hints.fg = '#000000'
 
 # ## Background color of pinned unselected even tabs.
 # ## Type: QtColor
-# c.colors.tabs.pinned.even.bg = 'darkseagreen'
+c.colors.tabs.pinned.even.bg = '#06D6A0'
 
 # ## Foreground color of pinned unselected even tabs.
 # ## Type: QtColor
-# c.colors.tabs.pinned.even.fg = 'white'
+c.colors.tabs.pinned.even.fg = 'black'
 
 # ## Background color of pinned unselected odd tabs.
 # ## Type: QtColor
-# c.colors.tabs.pinned.odd.bg = 'seagreen'
+c.colors.tabs.pinned.odd.bg = '#F2C583'
 
 # ## Foreground color of pinned unselected odd tabs.
 # ## Type: QtColor
-# c.colors.tabs.pinned.odd.fg = 'white'
+c.colors.tabs.pinned.odd.fg = 'black'
 
 # ## Background color of pinned selected even tabs.
 # ## Type: QtColor
-# c.colors.tabs.pinned.selected.even.bg = 'black'
+c.colors.tabs.pinned.selected.even.bg = '#E475A5'
 
 # ## Foreground color of pinned selected even tabs.
 # ## Type: QtColor
@@ -471,7 +471,7 @@ c.colors.hints.fg = '#000000'
 
 # ## Background color of pinned selected odd tabs.
 # ## Type: QtColor
-# c.colors.tabs.pinned.selected.odd.bg = 'black'
+c.colors.tabs.pinned.selected.odd.bg = '#E475A5'
 
 # ## Foreground color of pinned selected odd tabs.
 # ## Type: QtColor
@@ -479,7 +479,7 @@ c.colors.hints.fg = '#000000'
 
 # ## Background color of selected even tabs.
 # ## Type: QtColor
-# c.colors.tabs.selected.even.bg = 'black'
+c.colors.tabs.selected.even.bg = '#E475A5'
 
 # ## Foreground color of selected even tabs.
 # ## Type: QtColor
@@ -487,7 +487,7 @@ c.colors.hints.fg = '#000000'
 
 # ## Background color of selected odd tabs.
 # ## Type: QtColor
-# c.colors.tabs.selected.odd.bg = 'black'
+c.colors.tabs.selected.odd.bg = '#E475A5'
 
 # ## Foreground color of selected odd tabs.
 # ## Type: QtColor
@@ -1586,6 +1586,7 @@ c.hints.border = '1px solid #09D6A0'
 # ##   - window: Open in a new window.
 # ##   - private-window: Open in a new private window.
 # c.new_instance_open_target = 'tab'
+c.new_instance_open_target = 'window'
 
 # ## Which window to choose when opening links as new tabs. When
 # ## `new_instance_open_target` is set to `window`, this is ignored.
