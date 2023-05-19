@@ -159,3 +159,5 @@ axel
 -Ss youtube-
 -S yt-dlp
 rocketchat-client-electron-bin
+imgcat
+tödr
