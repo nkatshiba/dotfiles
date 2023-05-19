@@ -151,3 +151,11 @@ rocketchat-server
 rocketchat-server
 paper-icon-theme
 paper-gtk-theme-git
+docker
+docker
+docker
+docker
+axel
+-Ss youtube-
+-S yt-dlp
+rocketchat-client-electron-bin
