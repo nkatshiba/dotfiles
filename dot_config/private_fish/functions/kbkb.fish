@@ -1,6 +1,7 @@
 function kbkb
-    set arg $argv
-    set argu $(echo $arg | string upper)
-    echo '> keybind: '$argu
-    batgrep $argu, /home/xshiba/.config/hypr/
+    set arg $(echo $argv | string upper)
+    echo '> key: '$arg
+    set reg '(\s|^)'$arg','
+    echo '> regex: '$reg
+    batgrep -i $reg /home/xshiba/.config/hypr/
 end
