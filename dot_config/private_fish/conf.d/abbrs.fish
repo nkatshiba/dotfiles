@@ -9,10 +9,13 @@ abbr -a wlp wl-paste
 
 # bat
 abbr -a cat bat
-abbr -a rg batgrep
-abbr -a grep batgrep
+
+# abbr -a bf "clear && batgrep $argv  # batgrep <ACTION> <DIR/FP>"
+abbr -a bd batdiff
+abbr -a diff 'git diff'
 abbr -a man batman
-abbr -a diff batdiff
+# abbr -a rg batgrep
+abbr -a grep rg
 
 # LS / LSD
 abbr -a ls lsd
@@ -55,6 +58,7 @@ abbr -a pp 'vi ~/.6x/.pp.md'
 abbr -a play 'clear && cd $HOME/src/PLAYGROUND/ && ls'
 abbr -a src 'cd ~/src/'
 abbr -a mlv mullvad
+abbr -a c 'cd $HOME/.config/'
 
 # Apps
 abbr -a ccat 'command cat'
@@ -67,6 +71,7 @@ abbr -a du dust
 abbr -a cod berg
 abbr -a mongo mongotimer
 abbr -a imvf 'imv -drf '
+abbr -a nwg nwg-look
 
 # Echoes
 abbr -a epath 'echo $PATH'
@@ -111,6 +116,7 @@ abbr -a cmapp 'chezmoi apply'
 abbr -a cmcd 'chezmoi cd'
 abbr -a cmdi 'chezmoi diff'
 abbr -a vii 'chezmoi edit'
+abbr -a cms 'chezmoi status'
 
 # Tree
 abbr -a tree1 'tree -L 1'
