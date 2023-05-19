@@ -1,4 +1,4 @@
-function kbkb
+function kb
     set arg $(echo $argv | string upper)
     echo '> key: '$arg
     set reg '(\s|^)'$arg','
