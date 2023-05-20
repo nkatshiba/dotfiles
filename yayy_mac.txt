@@ -161,3 +161,16 @@ axel
 rocketchat-client-electron-bin
 imgcat
 tödr
+waylock
+-Rs rocketchat-server
+
+-Rs rocketchat-server
+rocketchat-desktop
+rocketchat-desktop
+rocketchat-desktop
+-Rs rocketchat-desktop
+-Ss rocketchat-client-electron-bin
+-S rocketchat-client-electron-bin
+-Rs rocketchat-client-electron-bin
+-Ss rocketchat-client-bin
+-S rocketchat-client-bin

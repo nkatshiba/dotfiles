@@ -30,7 +30,6 @@
   "modules-left": [
     "wlr/workspaces",
     "hyprland/submap",
-    "tray",
     "cpu",
     "memory",
     "disk"
@@ -52,7 +51,8 @@
     "network#eno1",
     "backlight",
     "custom/weather",
-    "pulseaudio#microphone"
+    "pulseaudio#microphone",
+    "tray"
     //"pulseaudio",
     //"bluetooth",
     //"network",

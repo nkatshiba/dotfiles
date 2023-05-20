@@ -163,3 +163,9 @@ abbr -a mdt "mdt --prompt MDT: --color #f2c2d2"
 abbr -a cell celluloid
 abbr -a ww 'killall waybar && sleep 0.2 && hyprctl dispatch exec waybar && clear && echo "exec waybar at: ---" (date +'%H:%M')'
 abbr -a yt 'yt-dlp "'
+
+# p4p4
+abbr -a ya 'yaya -S'
+abbr -a yas 'paru -Ss'
+abbr -a yai 'paru -Si'
+abbr -a yar 'paru -Rs'
