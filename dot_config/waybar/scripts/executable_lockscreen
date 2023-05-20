@@ -1,4 +1,5 @@
 #!/bin/bash
+# waylock -init-color 0x000000 -input-color 0x06D6A0 -fail-color 0xE373A5 -fork-on-lock
 
 # Colors
 bg='1e1e2e' bgl='313244' fg='d9e0ee'

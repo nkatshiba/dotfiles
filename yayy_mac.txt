@@ -174,3 +174,4 @@ rocketchat-desktop
 -Rs rocketchat-client-electron-bin
 -Ss rocketchat-client-bin
 -S rocketchat-client-bin
+kbdlight

@@ -5,24 +5,33 @@
     "on-click-right": "~/.config/tofi/scripts/drun.sh -t catppuccin_mocha",
     "tooltip": false
   },
+//  sort-by-name:
+//  
+//  sort-by-number:
 
   "wlr/workspaces": {
     "on-click": "activate",
-    "format": "{}",
+    //"disable-scroll": true,
+    "disable-markup" : false,
+    "sort-by-name" : true,
+    "sort-by-number" : false,
+    "sort-by-coordinates" : false,
     "all-outputs": true,
-    "sort-by-number": true,
-   // "format-icons": {
-   //   "1": "1",
-   //   "2": "2",
-   //   "3": "3",
-   //   "4": "4",
-   //   "5": "5",
-   //   "6": "6",
-   //   "7": "7",
-   //   "8": "8",
-   //   "9": "9",
-   //   "default": "1"
-   // }
+    "format": "  {icon}  ",
+    "format-icons": {
+        "qq": "qq",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10",
+        "spot": "󰓇",
+    }
   },
 
   "hyprland/submap": {
