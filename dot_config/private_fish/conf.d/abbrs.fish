@@ -117,7 +117,7 @@ abbr -a cmcd 'chezmoi cd'
 abbr -a cmdi 'chezmoi diff'
 abbr -a vii 'chezmoi edit'
 abbr -a cms 'chezmoi status'
-
+abbr -a cmf 'chezmoi forget && fish'
 # Tree
 abbr -a tree1 'tree -L 1'
 abbr -a tree2 'tree -L 2'
@@ -166,6 +166,7 @@ abbr -a yt 'yt-dlp "'
 
 # p4p4
 abbr -a ya 'yaya -S'
-abbr -a yas 'paru -Ss'
-abbr -a yai 'paru -Si'
-abbr -a yar 'paru -Rs'
+abbr -a yas 'yay -Ss'
+abbr -a yai 'yay -Si'
+abbr -a yar 'yay -Rs'
+abbr -a kk 'clear -x && eval $history[1]'

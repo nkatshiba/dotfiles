@@ -13,23 +13,22 @@
     "on-click": "activate",
     //"disable-scroll": true,
     "disable-markup" : false,
-    "sort-by-name" : true,
-    "sort-by-number" : false,
+    "sort-by-name" : false,
+    "sort-by-number" : true,
     "sort-by-coordinates" : false,
     "all-outputs": true,
-    "format": "  {icon}  ",
+    "format": "{icon}",
     "format-icons": {
-        "qq": "qq",
-        "1": "1",
+        "1": "qq",
         "2": "2",
         "3": "3",
         "4": "4",
         "5": "5",
-        "6": "",
+        "6": "6",
         "7": "7",
         "8": "8",
         "9": "9",
-        "10": "10",
+        "10": "",
         "spot": "󰓇",
     }
   },
@@ -58,7 +57,7 @@
   },
 
   "memory": {
-    "format": "󰤇 {used:0.1f}GB/{total:0.0f}GB - ({percentage}%)",
+    "format": "󰤇 ({percentage}%)",
     "on-click": "",
     "tooltip": false
   },
@@ -186,7 +185,7 @@
   },
   "clock": {
     "interval": 1,
-    "format": " {:%H:%M:%S | %d/%m}",
+    "format": "{:%H:%M:%S}",
     //"format": "󰥔 {:%H:%M}",
     //"format": "󰥔 {:%I:%M %p}",
     // "format-alt": "{:󰣆 %A, %B %d | 󰥔 %I:%M:%S %p}",

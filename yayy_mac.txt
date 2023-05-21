@@ -175,3 +175,5 @@ rocketchat-desktop
 -Ss rocketchat-client-bin
 -S rocketchat-client-bin
 kbdlight
+nnn
+lf

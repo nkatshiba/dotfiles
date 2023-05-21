@@ -16,7 +16,7 @@
   // Size of gaps in between of the different modules. Default: 4.
   "spacing": 1,
 
-   "fixed-center": true,
+  "fixed-center": true,
 
   // "passthrough": false,
 

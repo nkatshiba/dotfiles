@@ -2170,6 +2170,8 @@ c.url.searchengines['let'] = 'https://letterboxd.com/search/{}/'
 
 # OTHER
 c.url.searchengines['pry'] = 'https://pry.sh/{}'
+c.url.searchengines['kk'] = 'http://xxxadulttorrent.org/search/0/0/0/2/{}'
+
 # c.url.searchengines[''] = ''
 
 ### &-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-& ###
@@ -2225,6 +2227,10 @@ config.bind('pard', 'open -b https://bard.google.com/')
 config.bind('per', 'open -b https://perplexity.ai/')
 config.bind('phi', 'open -b https://phind.com/')
 config.bind('para', 'open -b https://paraphrasetool.com/')
+config.bind('zbook', 'open -b https://old.reddit.com/r/sportsbook/search/?q=of+the+Day&sort=relevance&restrict_sr=on&t=day')
+config.bind('zleo', 'open -b https://www.leovegas.com/sv-se/')
+
+
 # config.bind("'", 'mode-enter jump_mark')
 # config.bind('+', 'zoom-in')
 # config.bind('-', 'zoom-out')
