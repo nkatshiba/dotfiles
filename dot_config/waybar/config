@@ -39,7 +39,8 @@
   "modules-center": [
     "battery",
     "clock",
-    "pulseaudio#audio"
+    "pulseaudio#audio",
+    "backlight"
     //"hyprland/window",
    ],
 
@@ -49,7 +50,6 @@
     "idle_inhibitor",
     "network#wlo1",
     "network#eno1",
-    "backlight",
     "custom/weather",
     "pulseaudio#microphone",
     "tray"

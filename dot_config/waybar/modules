@@ -18,8 +18,11 @@
     "sort-by-coordinates" : false,
     "all-outputs": true,
     "format": "{icon}",
+
     "format-icons": {
-        "1": "qq",
+        //"1": "󰘅        󰰜 󰡚 󰘅    󰣩  ",
+        "1": "<span font_desc='CaskaydiaCove Nerd Font Mono 14'>󰘅</span>",
+        "1": "1",
         "2": "2",
         "3": "3",
         "4": "4",
@@ -29,7 +32,14 @@
         "8": "8",
         "9": "9",
         "10": "",
-        "spot": "󰓇",
+        //󰎆󰎈󰝚󰎄󰎅󰽰󰎍󱟛    󰃘 󰰽 󰅢 󰭽 󰇚 󱑢 󱑣 󱑤 󱑥 󰧩 󰮏 󰮏 󰉍 󱃩 󰥥 󰥦 
+        //󰚢 󰈎 󰵅 󰍡 󰚢 󱧌 󱅯 󰍦 󱅰 󰍨 󱜽 󰛰 󰚚 󰍩 󱧎 󰍫 󰍪
+        "spot": "󰽰",
+        "rocket": "<span font_desc='CaskaydiaCove Nerd Font Mono 16'></span>",
+        "webcord": "<span font_desc='CaskaydiaCove Nerd Font Mono 16'>󰙯</span>",
+        "qB": "<span font_desc='CaskaydiaCove Nerd Font Mono 17'>󰦗</span>",
+        "signal": "<span font_desc='CaskaydiaCove Nerd Font Mono 16'>󱜾</span>",
+        "caprine": "<span font_desc='CaskaydiaCove Nerd Font Mono 16'>󰈎</span>",
     }
   },
 
@@ -64,10 +74,11 @@
 
   "backlight": {
     "format": "{icon} {percent}%",
-    "format-icons": ["", "", "", ""],
+    "format-icons": ["", "", "", "", "", "", ""],
     "on-scroll-up": "brightnessctl set +5% && ~/.config/dunst/scripts/show_brightness.sh",
     "on-scroll-down": "brightnessctl set 5%- && ~/.config/dunst/scripts/show_brightness.sh",
-    "on-click": "",
+    "on-click": "brightnessctl -c backlight set 80%",
+    "on-click-right": "brightnessctl -c backlight set 5%",
     "smooth-scrolling-threshold": 1,
   },
 
@@ -107,6 +118,7 @@
       "default": ["", "", "", ""]
     },
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle && ~/.config/dunst/scripts/show_mute.sh",
+    "on-click-right": "pavucontrol",
     "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +1% && ~/.config/dunst/scripts/show_volume.sh",
     "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -1% && ~/.config/dunst/scripts/show_volume.sh",
     "tooltip": true,
@@ -142,7 +154,7 @@
     // "format-disconnected": "󰤮",
     "format-disconnected": "",
     // "format-alt": "{icon} {essid} | 󱑽 {signalStrength}% {signaldBm} dBm {frequency} MHz",
-    "on-click": "",
+    "on-click": "wezterm -e 'nmtui'",
     "tooltip": true,
     "tooltip-format": "󰢮 {ifname}\n󰩟 {ipaddr}/{cidr}\n{icon} {essid}\n󱑽 {signalStrength}% {signaldBm} dBm {frequency} MHz\n󰞒 {bandwidthDownBytes}\n󰞕 {bandwidthUpBytes}"
   },
@@ -224,7 +236,8 @@
     "format": "{icon} IDL3 {icon}",
     "start-activated": true,
     "format-icons": {
-        "activated": "󰒳",
+        //"activated": "󰒳",
+        "activated": "<span font_desc='CaskaydiaCove Nerd Font Mono 13'>󰒳</span>",
         "deactivated": "󰒲"
     }
   },

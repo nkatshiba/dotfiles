@@ -63,7 +63,7 @@ abbr -a c 'cd $HOME/.config/'
 # Apps
 abbr -a ccat 'command cat'
 abbr -a caa hyprpicker
-abbr -a kalk kalker-linux
+abbr -a kalk kalker
 abbr -a jj z
 abbr -a j z
 abbr -a tt timetrace
@@ -170,3 +170,15 @@ abbr -a yas 'yay -Ss'
 abbr -a yai 'yay -Si'
 abbr -a yar 'yay -Rs'
 abbr -a kk 'clear -x && eval $history[1]'
+abbr -a wek 'hyprctl dispatch exec wezterm connect unix'
+abbr -a sr 'wezterm cli split-pane --right'
+abbr -a h 'wezterm cli activate-pane-direction Left'
+abbr -a l 'wezterm cli activate-pane-direction Right'
+abbr -a ckbn '/home/xshiba/src/scripts/ckb_next/ckb-next_exec.sh'
+abbr -a pa pass
+abbr -a dela 'clear && env TZ=America/New_York date'
+abbr -a ariay 'yt-dlp --external-downloader aria2c'
+abbr -a wdt wisdom-tree
+abbr -a ksk 'ssh kskat@212.193.3.135'
+abbr -a kska ssh-add /home/xshiba/.ssh/id_ed25519
+abbr -a ipc 'wlcc 212.193.3.135'

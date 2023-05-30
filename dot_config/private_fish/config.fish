@@ -24,10 +24,16 @@ source ~/.asdf/asdf.fish
 # set -g hydro_color_prompt '#51E1EC'  # For tilda
 set -g hydro_color_pwd '#F9BB92'
 set -g hydro_color_git '#F8C8DC'
-set -g hydro_color_prompt '#DA627D'
+set -g hydro_symbol_prompt 'lcl ❱'
+
+set -g hydro_color_prompt '#ffb6c1'
+# set -g hydro_color_prompt '#f7b6d2'
+# set -g hydro_color_prompt '#ffe4e1'
+
 set -g hydro_color_error '#DA627D'
 set -g hydro_color_duration '#7B68EE'
 set -g fish_prompt_pwd_dir_length 3
+
 
 
 # complete -c yaya -a "(paru -Ss)"
@@ -44,3 +50,5 @@ end
 ## Internal / System
 set -gx LOCAL_BIN_PATH "$HOME/.local/bin/"
 set -gx PATH "$LOCAL_BIN_PATH" $PATH
+
+# set -gx zoxide_cmd jjj

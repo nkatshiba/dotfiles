@@ -2228,7 +2228,23 @@ config.bind('per', 'open -b https://perplexity.ai/')
 config.bind('phi', 'open -b https://phind.com/')
 config.bind('para', 'open -b https://paraphrasetool.com/')
 config.bind('zbook', 'open -b https://old.reddit.com/r/sportsbook/search/?q=of+the+Day&sort=relevance&restrict_sr=on&t=day')
-config.bind('zleo', 'open -b https://www.leovegas.com/sv-se/')
+config.bind('zleo', 'open -b https://www.leovegas.com/sv-se/logga-in?view=loginRegular')
+config.bind('zsgpt', 'open -b https://www.stealthgpt.ai/')
+config.bind('zbox', 'open -b https://lowendbox.com/')
+config.bind('ztalk', 'open -b https://lowendtalk.com/categories/offers')
+config.bind('zvps', 'open -b https://clients.advinservers.com/clientarea.php?action=productdetails&id=7520')
+config.bind('ztic', 'open -b https://lowendtalk.com/categories/offershttps://clients.advinservers.com/supporttickets.php#')
+
+
+
+
+config.bind('zjelly', 'open -b http://192.168.1.220:8096')
+config.bind('zrocket', 'open -b http://192.168.1.220:3000')
+config.bind('zqbit', 'open -b http://192.168.1.220:8080')
+
+
+
+
 
 
 # config.bind("'", 'mode-enter jump_mark')

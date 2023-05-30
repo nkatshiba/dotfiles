@@ -177,3 +177,28 @@ rocketchat-desktop
 kbdlight
 nnn
 lf
+-S zoxide
+-S gvfs
+-S python-qtpy
+-S ckb-next-git
+ckb-next
+-S mabel
+-S kalker-bin
+-S timer-rs
+-S clican
+-S clikan
+iperf3
+wtype
+-S discord_arch_electron
+discord-electron
+discord-electron
+-Ss discord
+ripcord
+freetube
+-S ydotool
+-S wlrctl
+-S ydotool
+-S ydotoold
+-S bot
+-Ss parted
+jellyfin

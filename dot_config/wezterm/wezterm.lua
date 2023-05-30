@@ -39,6 +39,8 @@ return {
 		{ key = "0", mods = "CTRL", action = act.ResetFontSize },
 		{ key = "phys:Space", mods = "CTRL", action = act.ActivateCopyMode },
 		{ key = "phys:Space", mods = "SHIFT|CTRL", action = act.QuickSelect },
+		{ key = "j", mods = "CTRL", action = act.ActivatePaneDirection("Prev") },
+		{ key = "k", mods = "CTRL", action = act.ActivatePaneDirection("Next") },
 	},
 	key_tables = {
 		search_mode = {
