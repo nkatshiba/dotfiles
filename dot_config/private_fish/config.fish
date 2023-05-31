@@ -15,6 +15,7 @@ set -gx QT_WAYLAND_DISABLE_WINDOWDECORATION 1
 set -gx XDG_SESSION_TYPE wayland
 set -gx MOZ_ENABLE_WAYLAND 1
 set -gx GDK_BACKEND wayland
+set -gx SUDO_EDITOR nvim
 
 # Source
 source ~/.config/fish/functions/_HELPERS.fish
