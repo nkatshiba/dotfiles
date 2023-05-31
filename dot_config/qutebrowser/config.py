@@ -2238,15 +2238,16 @@ config.bind('ztic', 'open -b https://lowendtalk.com/categories/offershttps://cli
 
 
 
-config.bind('zjelly', 'open -b http://192.168.1.220:8096')
-config.bind('zrocket', 'open -b http://192.168.1.220:3000')
-config.bind('zqbit', 'open -b http://192.168.1.220:8080')
+config.bind('zjelly', 'open -b http://212.193.3.135:8096')
+config.bind('zrocket', 'open -b http://212.193.3.135:3000')
+config.bind('zqbit', 'open -b http://212.193.3.135:8080')
 
 
 
 
 
 
+config.bind('<Ctrl+M>', 'hint links spawn --detach mpv {hint-url}')
 # config.bind("'", 'mode-enter jump_mark')
 # config.bind('+', 'zoom-in')
 # config.bind('-', 'zoom-out')
