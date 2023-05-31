@@ -207,3 +207,6 @@ qutebrows
 qutebrows
 qutebrows
 qutebrows
+-S gh
+httpie
+deepl-clipboard

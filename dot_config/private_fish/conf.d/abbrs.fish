@@ -182,3 +182,10 @@ abbr -a wdt wisdom-tree
 abbr -a ksk 'ssh kskat@212.193.3.135'
 abbr -a kska ssh-add /home/xshiba/.ssh/id_ed25519
 abbr -a ipc 'wlcc 212.193.3.135'
+abbr -a tci 'time curl -s'
+abbr -a rmf 'rm -rf'
+abbr -a co command
+abbr -a dust1 'dust -d 1'
+abbr -a chk 'chmod -x * && chown xshiba:xshiba *'
+# abbr -a visudo 'sudo SUDO_EDITOR=nvim visudo'
+abbr -a visudo 'sudo -E visudo'
