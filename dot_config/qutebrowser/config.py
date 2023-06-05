@@ -1586,7 +1586,7 @@ c.hints.border = '1px solid #09D6A0'
 # ##   - window: Open in a new window.
 # ##   - private-window: Open in a new private window.
 # c.new_instance_open_target = 'tab'
-c.new_instance_open_target = 'window'
+c.new_instance_open_target = 'tab-bg-silent'
 
 # ## Which window to choose when opening links as new tabs. When
 # ## `new_instance_open_target` is set to `window`, this is ignored.
@@ -2098,27 +2098,32 @@ c.url.default_page = 'about:blank'
 # DEFAULT 
 # c.url.searchengines = {'DEFAULT': 'https://you.com/search?q={}'}
 # c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?ia=web&q={}'}
-c.url.searchengines = {'DEFAULT': 'https://www.qwant.com?vt=0&l=en&locale=en_US&home=daily&q={}&theme=1&hc=1&hti=0&b=0&s=0&si=1&c=blue&ch=none&eco_suggest=1'}
-
-
+# c.url.searchengines = {'DEFAULT': 'https://you.com/search?q={}'}
+c.url.searchengines = {'DEFAULT': 'https://www.qwant.com/?theme=1&hc=1&hti=0&vt=0&b=0&s=0&l=en&locale=sv_SE&home=daily&si=0&c=blue&ch=none&eco_suggest=1&q={}&t=web'}
+c.url.searchengines['red'] = 'https://you.com/search?q={}&fromSearchBar=true&tbm=social'
+# c.url.searchengines['red'] = 'https://you.com/search?q={}+reddit&fromSearchBar=true&tbm=social'
 
 # YOU
 # c.url.searchengines['yo'] = 'https://you.com/search?q={}'
 c.url.searchengines['yo'] = 'https://you.com/search?q={}&tbm=youchat'
-c.url.searchengines['pi'] = 'https://www.phind.com/search?q={}'
-
-
-# PERPLEXITY
+c.url.searchengines['yoi'] = 'https://you.com/search?q={}&fromSearchBar=true&tbm=isch'
+c.url.searchengines['yov'] = 'https://you.com/search?q={}&fromSearchBar=true&tbm=vid'
+c.url.searchengines['yon'] = 'https://you.com/search?q={}&fromSearchBar=true&tbm=nws'
+c.url.searchengines['yoa'] = 'https://you.com/search?q={}&fromSearchBar=true'
+c.url.searchengines['yos'] = 'https://you.com/search?q={}&fromSearchBar=true&tbm=social'
+c.url.searchengines['yosc'] = 'https://you.com/search?q={}&fromSearchBar=true&tbm=youstudy'
+c.url.searchengines['yoc'] = 'https://you.com/search?q={}&fromSearchBar=true&tbm=youcode'
 # c.url.searchengines[''] = ''
 
+# Qwant
+# c.url.searchengines = {'DEFAULT': 'https://www.qwant.com?vt=0&l=en&locale=en_US&home=daily&q={}&theme=1&hc=1&hti=0&b=0&s=0&si=1&c=blue&ch=none&eco_suggest=1'}
 
-# DDG 
+# DDG
 c.url.searchengines['dd'] = 'https://duckduckgo.com/?q={}'
 c.url.searchengines['ddi'] = 'https://duckduckgo.com/?q={}&iar=images&iax=images&ia=images'
 # c.url.searchengines[''] = ''
 
-
-# GOOGLE 
+# GOOGLE
 c.url.searchengines['go'] = 'https://www.google.com/search?hl=en&safe=off&num=50&pws=0&q={}'
 c.url.searchengines['gom'] = 'https://www.google.com/maps/search/{}'
 c.url.searchengines['gon'] = 'https://news.google.com/search?q={}'
@@ -2134,8 +2139,30 @@ c.url.searchengines['mw'] = 'https://www.merriam-webster.com/thesaurus/{}'
 c.url.searchengines['mwd'] = 'https://www.merriam-webster.com/dictionary/{}'
 c.url.searchengines['dic'] = 'https://thefreedictionary.com/{}'
 c.url.searchengines['ud'] = 'https://www.urbandictionary.com/define.php?term={}'
+# c.url.searchengines[''] = ''
 
-
+# Reddit
+## Relevance
+c.url.searchengines['rr'] = 'https://old.reddit.com/search/?q={}&sort=relevance&restrict_sr=&t=all'
+c.url.searchengines['rrh'] = 'https://old.reddit.com/search/?q={}&sort=relevance&restrict_sr=&t=hour'
+c.url.searchengines['rrd'] = 'https://old.reddit.com/search/?q={}&sort=relevance&restrict_sr=&t=day'
+c.url.searchengines['rrw'] = 'https://old.reddit.com/search/?q={}&sort=relevance&restrict_sr=&t=week'
+c.url.searchengines['rrm'] = 'https://old.reddit.com/search/?q={}&sort=relevance&restrict_sr=&t=month'
+c.url.searchengines['rry'] = 'https://old.reddit.com/search/?q={}&sort=relevance&restrict_sr=&t=year'
+## Top
+c.url.searchengines['rt'] = 'https://old.reddit.com/search/?q={}&sort=top&restrict_sr=&t=all'
+c.url.searchengines['rth'] = 'https://old.reddit.com/search/?q={}&sort=top&restrict_sr=&t=hour'
+c.url.searchengines['rtd'] = 'https://old.reddit.com/search/?q={}&sort=top&restrict_sr=&t=day'
+c.url.searchengines['rtw'] = 'https://old.reddit.com/search/?q={}&sort=top&restrict_sr=&t=week'
+c.url.searchengines['rtm'] = 'https://old.reddit.com/search/?q={}&sort=top&restrict_sr=&t=month'
+c.url.searchengines['rty'] = 'https://old.reddit.com/search/?q={}&sort=top&restrict_sr=&t=year'
+## New
+c.url.searchengines['rn'] = 'https://old.reddit.com/search/?q={}&sort=new&restrict_sr=&t=all'
+c.url.searchengines['rnh'] = 'https://old.reddit.com/search/?q={}&sort=new&restrict_sr=&t=hour'
+c.url.searchengines['rnd'] = 'https://old.reddit.com/search/?q={}&sort=new&restrict_sr=&t=day'
+c.url.searchengines['rnw'] = 'https://old.reddit.com/search/?q={}&sort=new&restrict_sr=&t=week'
+c.url.searchengines['rnm'] = 'https://old.reddit.com/search/?q={}&sort=new&restrict_sr=&t=month'
+c.url.searchengines['rny'] = 'https://old.reddit.com/search/?q={}&sort=new&restrict_sr=&t=year'
 # c.url.searchengines[''] = ''
 
 # ARCH
@@ -2144,7 +2171,6 @@ c.url.searchengines['aurp'] = 'https://www.archlinux.org/packages/?sort=&q={}'
 c.url.searchengines['aur'] = 'https://aur.archlinux.org/packages?O=0&SeB=nd&K={}&outdated=&SB=p&SO=d&PP=50&submit=Go'
 c.url.searchengines['ab'] = 'https://bugs.archlinux.org/?project=5&string={}'
 # c.url.searchengines[''] = ''
-
 
 # GITHUB
 c.url.searchengines['ghg'] = 'https://gist.github.com/search?q={}'
@@ -2156,7 +2182,6 @@ c.url.searchengines['ghr'] = 'https://github.com/enabty?tab=repositories&q={}&ty
 
 # SOCIAL
 c.url.searchengines['tw'] = 'https://twitter.com/search?q={}'
-c.url.searchengines['red'] = 'https://www.reddit.com/search?q={}'
 # c.url.searchengines[''] = ''
 
 
@@ -2171,7 +2196,6 @@ c.url.searchengines['let'] = 'https://letterboxd.com/search/{}/'
 # OTHER
 c.url.searchengines['pry'] = 'https://pry.sh/{}'
 c.url.searchengines['kk'] = 'http://xxxadulttorrent.org/search/0/0/0/2/{}'
-
 # c.url.searchengines[''] = ''
 
 ### &-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-& ###
@@ -2223,30 +2247,62 @@ c.zoom.default = '90%'
 # ## Bindings for normal mode
 #& 'z+<*>' --> go to quickmark, 'zz' -> go search engines 
 
+# NKAT
+config.bind('e1', 'open -b http://nkat.se/')
+config.bind('e2', 'open -b https://nkat.se/')
+config.bind('ej1', 'open -b http://nkat.se/jelly')
+config.bind('ej2', 'open -b http://jelly.nkat.se/')
+config.bind('eip1', 'open -b http://212.193.3.135:8096')
+config.bind('eip2', 'open -b https://212.193.3.135:8096')
+
+# GPT
 config.bind('pard', 'open -b https://bard.google.com/')
 config.bind('per', 'open -b https://perplexity.ai/')
 config.bind('phi', 'open -b https://phind.com/')
 config.bind('para', 'open -b https://paraphrasetool.com/')
+config.bind('zjelly', 'open -b http://212.193.3.135:8096')
+config.bind('zrocket', 'open -b http://212.193.3.135:3000')
+config.bind('zqbit', 'open -b http://212.193.3.135:8080')
+
+# News
+## AP
+config.bind('apn', 'open -b https://apnews.com/')
+config.bind('aps', 'open -b https://apnews.com/hub/science')
+config.bind('app', 'open -b https://apnews.com/hub/photography')
+config.bind('apfc', 'open -b https://apnews.com/hub/ap-fact-check')
+config.bind('apw', 'open -b https://apnews.com/hub/world-news')
+config.bind('ape', 'open -b https://apnews.com/hub/europe')
+config.bind('aptennis', 'open -b https://apnews.com/hub/tennis')
+config.bind('apgolf', 'open -b https://apnews.com/hub/golf')
+config.bind('apmovrev', 'open -b https://apnews.com/hub/film-reviews')
+config.bind('apmov', 'open -b https://apnews.com/hub/movies')
+config.bind('aptv', 'open -b https://apnews.com/hub/television')
+config.bind('apmusic', 'open -b https://apnews.com/hub/music')
+config.bind('aptech', 'open -b https://apnews.com/hub/technology')
+config.bind('aphealth', 'open -b https://apnews.com/hub/health')
+config.bind('apinv', 'open -b https://apnews.com/hub/ap-investigations')
+## SWE
+config.bind('zft', 'open -b https://www.friatider.se/')
+config.bind('zsyd', 'open -b https://www.sydsvenskan.se/')
+
+# Others
 config.bind('zbook', 'open -b https://old.reddit.com/r/sportsbook/search/?q=of+the+Day&sort=relevance&restrict_sr=on&t=day')
 config.bind('zleo', 'open -b https://www.leovegas.com/sv-se/logga-in?view=loginRegular')
 config.bind('zsgpt', 'open -b https://www.stealthgpt.ai/')
 config.bind('zbox', 'open -b https://lowendbox.com/')
 config.bind('ztalk', 'open -b https://lowendtalk.com/categories/offers')
 config.bind('zvps', 'open -b https://clients.advinservers.com/clientarea.php?action=productdetails&id=7520')
-config.bind('ztic', 'open -b https://lowendtalk.com/categories/offershttps://clients.advinservers.com/supporttickets.php#')
+
+# Letterboxd
+config.bind('zletb', 'open -b https://letterboxd.com/')
+config.bind('zletp', 'open -b https://letterboxd.com/tildavimer/')
+config.bind('zletr', 'open -b https://letterboxd.com/tildavimer/films/')
+config.bind('zletd', 'open -b https://letterboxd.com/tildavimer/films/diary/')
+config.bind('zletw', 'open -b https://letterboxd.com/tildavimer/watchlist/')
+config.bind('zletl', 'open -b https://letterboxd.com/tildavimer/lists/')
 
 
-
-
-config.bind('zjelly', 'open -b http://212.193.3.135:8096')
-config.bind('zrocket', 'open -b http://212.193.3.135:3000')
-config.bind('zqbit', 'open -b http://212.193.3.135:8080')
-
-
-
-
-
-
+config.bind('<Ctrl+V>', 'open -b {clipboard}')
 config.bind('<Ctrl+M>', 'hint links spawn --detach mpv {hint-url}')
 # config.bind("'", 'mode-enter jump_mark')
 # config.bind('+', 'zoom-in')
@@ -2340,7 +2396,7 @@ config.bind('Ss', 'set')
 # config.bind('[[', 'navigate prev')
 # config.bind(']]', 'navigate next')
 # config.bind('`', 'mode-enter set_mark')
-config.bind('ad', 'download-cancel')
+config.bind('cc', 'download-cancel')
 config.bind('b', 'set-cmd-text -s :quickmark-load')
 config.bind('cd', 'download-clear')
 config.bind('co', 'tab-only')
