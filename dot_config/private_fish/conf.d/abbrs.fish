@@ -156,10 +156,47 @@ abbr -a sshnkat ssh root@174.138.101.143
 # ALMA
 abbr -a alma 'cd /home/abty/src/python/ALMA/Alma-bachelor-project'
 
+# MDT
+abbr -a mdt "mdt --prompt 'T-?¿?¿?:' -d '/home/xshiba/nts/__tasks_and_todos' -i 'TODO.md' --color '#E475A5'"
+abbr -a mdl "mdt --prompt 'L-?¿?¿?:' -d '/home/xshiba/nts/__tasks_and_todos' -i 'LONG.md' --color '#06D6A0'"
+abbr -a mdp "mdt --prompt 'P-?¿?¿?:' -d '/home/xshiba/nts/__tasks_and_todos' -i 'PRIO.md' --color '#F1C583'"
+
+# ?-ctl
+## hyprctl
+abbr -a hctl hyprctl
+abbr -a hctld 'hyprctl dispatch'
+abbr -a hctle 'hyprctl exec'
+abbr -a hctlc 'hyprctl clients'
+abbr -a hctlw 'hyprctl workspaces'
+abbr -a hctlr 'hyprctl reload'
+## brightnessctl
+abbr -a bctl brightnessctl
+## systemctl
+abbr -a sctl systemctl
+abbr -a sctls 'systemctl status'
+abbr -a sctlstop 'systemctl stop'
+abbr -a sctlstart 'systemctl start'
+abbr -a sctlre 'systemctl restart'
+abbr -a sctlenable 'systemctl enable --now'
+## playerctl
+abbr -a pctl playerctl
+abbr -a pctls 'playerctl status'
+abbr -a pctlp 'playerctl play-pause'
+abbr -a pctlne 'playerctl next'
+abbr -a pctlpr 'playerctl previous'
+abbr -a pctlm 'playerctl metadata'
+### Metadata
+abbr -a pctlma 'playerctl metadata xesam:album'
+abbr -a pctlmwho 'playerctl metadata xesam:artist'
+abbr -a pctlmt 'playerctl metadata xesam:title'
+abbr -a pctlmu 'playerctl metadata xesam:url'
+
+## Sonos
+abbr -a sonos 'playerctl volume'
+
 # Unsorted
 abbr -a mwa mongotimer
 abbr -a mti 'mongotimer -e '
-abbr -a mdt "mdt --prompt MDT: --color #f2c2d2"
 abbr -a cell celluloid
 abbr -a ww 'killall waybar && sleep 0.2 && hyprctl dispatch exec waybar && clear && echo "exec waybar at: ---" (date +'%H:%M')'
 abbr -a yt 'yt-dlp "'
