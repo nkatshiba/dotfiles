@@ -78,7 +78,7 @@ abbr -a epath 'echo $PATH'
 
 # Git
 abbr -a gcm 'git commit -m'
-# abbr -a gp 'git push -u origin'
+abbr -a gp 'git push'
 abbr -a gpu 'git push'
 abbr -a gs 'git status -s'
 abbr -a gss 'git status'
