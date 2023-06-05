@@ -210,3 +210,4 @@ qutebrows
 -S gh
 httpie
 deepl-clipboard
+-S disneyplus
