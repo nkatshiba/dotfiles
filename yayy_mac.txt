@@ -217,3 +217,10 @@ cava
 noson
 sc-im
 nordzy
+-S sweet-gtk-theme-dark
+-S xcursor-hackneyed-light
+-S volantes-cursor
+-S volantes-cursors
+-S gping
+-S sweet-cursors-theme-git
+-S hyprshot
