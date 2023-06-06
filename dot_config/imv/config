@@ -1,0 +1,7 @@
+[options]
+# list_files_at_exit = true
+# overlay = true
+overlay_font = CaskaydiaCove Nerd Font Mono:14
+overlay_text_color = #06D6A0
+
+
