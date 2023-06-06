@@ -229,3 +229,6 @@ abbr -a chk 'chmod -x * && chown xshiba:xshiba *'
 abbr -a visudo 'sudo -E visudo'
 abbr -a dudu 'kill dunst && dunstify "reset" && dunstify -a "Spotify" -u low "Now Playing" (playerctl metadata xesam:title)'
 abbr -a dff 'df -h -t vfat -t ext4'
+
+# sc-im
+abbr -a scim sc-im
