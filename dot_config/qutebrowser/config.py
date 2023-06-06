@@ -2240,10 +2240,10 @@ c.zoom.default = '90%'
 # NKAT
 config.bind('e1', 'open -b http://nkat.se/')
 config.bind('e2', 'open -b https://nkat.se/')
-config.bind('ej1', 'open -b http://nkat.se/jelly')
-config.bind('ej2', 'open -b http://jelly.nkat.se/')
-config.bind('eip1', 'open -b http://212.193.3.135:8096')
-config.bind('eip2', 'open -b https://212.193.3.135:8096')
+config.bind('e71', 'open -b http://nkat.se/jelly')
+config.bind('e72', 'open -b http://jelly.nkat.se/')
+config.bind('ej1', 'open -b http://212.193.3.135:8096')
+config.bind('ej2', 'open -b https://212.193.3.135:8096')
 
 # GPT
 config.bind('pard', 'open -b https://bard.google.com/')
