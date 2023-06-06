@@ -15,7 +15,8 @@
 # image=/home/xshiba/Pictures/wps/nowa/yemoon.jpg
 # image=/home/xshiba/Pictures/wps/nowa/pf/machine.jpg
 # image=/home/xshiba/Pictures/wps/nowa/pf/prism1.jpg
-image=/home/xshiba/Pictures/wps/nowa/pf/ipadce.jpg
+# image=/home/xshiba/Pictures/wps/nowa/pf/ipadce.jpg
+image=/home/xshiba/.config/swaylock/swaylock_bg.jpg
 
 indicator-caps-lock
 scaling=fill
