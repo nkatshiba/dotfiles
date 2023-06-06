@@ -16,19 +16,19 @@
 # end
 
 function fish_greeting
-
-    set -g date (date +'%d-%m-%y')
-    set -g time (date +'%H:%M')
-    set -g datetime (date +'%d-%m-%y - %H:%M')
-
-    # echo "pub:" (curl -s https://am.i.mullvad.net)
-    # command mullvad status
-
-    # echo ">" (curl -s https://am.i.mullvad.net/connected)
-    echo " >" (curl -s https://am.i.mullvad.net)
-    echo "  > socks5 (10.64.0.1) IP is" (curl -s https://ipv4.am.i.mullvad.net --socks5-hostname 10.64.0.1)
-
-    echo " @ "$date - $time
+    #
+    # set -g date (date +'%d-%m-%y')
+    # set -g time (date +'%H:%M')
+    # set -g datetime (date +'%d-%m-%y - %H:%M')
+    #
+    # # echo "pub:" (curl -s https://am.i.mullvad.net)
+    # # command mullvad status
+    #
+    # # echo ">" (curl -s https://am.i.mullvad.net/connected)
+    # echo " >" (curl -s https://am.i.mullvad.net)
+    # echo "  > socks5 (10.64.0.1) IP is" (curl -s https://ipv4.am.i.mullvad.net --socks5-hostname 10.64.0.1)
+    #
+    # echo " @ "$date - $time
 end
 
 
