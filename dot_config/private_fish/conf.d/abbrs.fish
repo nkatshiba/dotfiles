@@ -160,6 +160,7 @@ abbr -a alma 'cd /home/abty/src/python/ALMA/Alma-bachelor-project'
 abbr -a mdt "mdt --prompt 'T-?¿?¿?:' -d '/home/xshiba/nts/__tasks_and_todos' -i 'TODO.md' --color '#E475A5'"
 abbr -a mdl "mdt --prompt 'L-?¿?¿?:' -d '/home/xshiba/nts/__tasks_and_todos' -i 'LONG.md' --color '#06D6A0'"
 abbr -a mdp "mdt --prompt 'P-?¿?¿?:' -d '/home/xshiba/nts/__tasks_and_todos' -i 'PRIO.md' --color '#F1C583'"
+abbr -a mdtt "command mdt"
 
 # ?-ctl
 ## hyprctl
@@ -227,3 +228,4 @@ abbr -a chk 'chmod -x * && chown xshiba:xshiba *'
 # abbr -a visudo 'sudo SUDO_EDITOR=nvim visudo'
 abbr -a visudo 'sudo -E visudo'
 abbr -a dudu 'kill dunst && dunstify "reset" && dunstify -a "Spotify" -u low "Now Playing" (playerctl metadata xesam:title)'
+abbr -a dff 'df -h -t vfat -t ext4'
