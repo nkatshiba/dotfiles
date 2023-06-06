@@ -77,6 +77,7 @@ abbr -a nwg nwg-look
 abbr -a epath 'echo $PATH'
 
 # Git
+abbr -a gcmhf 'git commit -m "hotfix(es)"'
 abbr -a gcm 'git commit -m'
 abbr -a gp 'git push'
 abbr -a gpu 'git push'
