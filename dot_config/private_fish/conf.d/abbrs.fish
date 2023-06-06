@@ -127,7 +127,7 @@ abbr -a tree3 'tree -L 3'
 abbr -a f fish
 abbr -a qq exit
 abbr -a h2 "eval (history | head -n2 | tail -n1 | sed 's/^[ ]*[0-9]*[ ]*//')"
-abbr -a hh "commandline -i (history | head -n2 | tail -n1 | sed 's/^[ ]*[0-9]*[ ]*//')"
+# abbr -a hh "commandline -i (history | head -n2 | tail -n1 | sed 's/^[ ]*[0-9]*[ ]*//')"
 
 # Pacman / Yay
 #abbr -a yay yayy

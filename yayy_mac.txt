@@ -212,3 +212,4 @@ httpie
 deepl-clipboard
 -S disneyplus
 dmenu-wl
+pulseaudio-blue
