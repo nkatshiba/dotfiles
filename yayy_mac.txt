@@ -213,3 +213,7 @@ deepl-clipboard
 -S disneyplus
 dmenu-wl
 pulseaudio-blue
+cava
+noson
+sc-im
+nordzy

@@ -31,11 +31,12 @@
     # screen width minus the width defined in within the geometry option.
     # geometry = "400x100-10+30"
 
+    origin = top-center
     width = 300
 
     height = 400
 
-    offset = 20x40
+    offset = 7x6
 
     close_all = ctrl+h
 
