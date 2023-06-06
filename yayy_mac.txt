@@ -224,3 +224,4 @@ nordzy
 -S gping
 -S sweet-cursors-theme-git
 -S hyprshot
+-S wayout
