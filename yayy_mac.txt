@@ -225,3 +225,10 @@ nordzy
 -S sweet-cursors-theme-git
 -S hyprshot
 -S wayout
+syncthing
+syncthingcrl
+syncthingctl
+syncthingctl
+-S syncthing
+-S syncthingtray
+visidata

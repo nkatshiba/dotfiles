@@ -2119,6 +2119,13 @@ c.url.searchengines['gon'] = 'https://news.google.com/search?q={}'
 c.url.searchengines['goi'] = 'https://www.google.com/search?tbm=isch&q={}&tbs=imgo:1'
 # c.url.searchengines[''] = ''
 
+# Seeds
+c.url.searchengines['tnya'] = 'https://nyaa.si/?f=0&c=1_0&q={}&s=seeders&o=desc'
+c.url.searchengines['trar'] = 'https://www2.rarbggo.to/search/?search={}&order=seeders&by=DESC'
+c.url.searchengines['t13'] = 'https://1337x.to/sort-search/{}/seeders/desc/1/'
+c.url.searchengines['tdope'] = 'https://idope.skin/fullsearch?q={}'
+c.url.searchengines['tsol'] = 'https://solidtorrents.to/search?q={}&sort=seeders'
+
 
 # TRANSLATE / WORD PROCESSING
 c.url.searchengines['tr'] = 'https://www.deepl.com/translator#sv/en/{}'

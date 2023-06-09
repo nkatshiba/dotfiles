@@ -208,7 +208,7 @@ window#waybar {
 /* -------------------------------------------------------------------------------- */
 
 #pulseaudio.audio {
-  background-color: #E475A5;
+  background-color: #F38BA8;
   /* background-color: @green; */
   color: @crust;
 }
@@ -312,7 +312,7 @@ window#waybar {
 
 /* #battery {} */
 #battery.full {
-  background-color: @rosewater;
+  background-color: #F38BA8;
   color: @crust;
 }
 
@@ -321,7 +321,7 @@ window#waybar {
 }
 
 #battery.warning {
-  background-color: #f3c583;
+  background-color: #F38BA8;
   color: @crust;
 }
 
@@ -340,7 +340,7 @@ window#waybar {
 
 #battery.charging,
 #battery.plugged {
-  background-color: @blue;
+  background-color: #F38BA8;
   color: @crust;
 }
 
@@ -352,8 +352,7 @@ window#waybar {
 /* -------------------------------------------------------------------------------- */
 
 #clock {
-  /* background-color: @base; */
-  background-color: #fff;
+  background-color: #06D6A0;
   color: @crust;
   /* color: @rosewater; */
 }

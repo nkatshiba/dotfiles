@@ -39,13 +39,13 @@
   "modules-center": [
     "battery",
     "clock",
-    "pulseaudio#audio",
-    "backlight"
+    "pulseaudio#audio"
     //"hyprland/window",
    ],
 
   // Modules right
   "modules-right": [
+    "backlight",
     "custom/vpn_check",
     "idle_inhibitor",
     "network#wlo1",
