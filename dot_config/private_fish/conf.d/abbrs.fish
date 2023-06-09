@@ -235,3 +235,5 @@ abbr -a dff 'df -h -t vfat -t ext4'
 abbr -a scim sc-im
 abbr -a sci sc-im
 abbr -a spre 'cd /home/xshiba/nts/spreads && sc-im salary.sc'
+abbr -a da 'echo "date +%d/%m" | wl-copy -n && wtype -k Return'
+eval
