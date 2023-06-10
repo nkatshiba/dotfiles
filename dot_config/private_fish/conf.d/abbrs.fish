@@ -119,6 +119,7 @@ abbr -a cmdi 'chezmoi diff'
 abbr -a vii 'chezmoi edit'
 abbr -a cms 'chezmoi status'
 abbr -a cmf 'chezmoi forget && fish'
+abbr -a cmgp 'git push && git push gh'
 # Tree
 abbr -a tree1 'tree -L 1'
 abbr -a tree2 'tree -L 2'
