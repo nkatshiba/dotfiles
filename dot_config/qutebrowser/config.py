@@ -1962,7 +1962,7 @@ c.new_instance_open_target = 'tab-bg-silent'
 # ##   - prev: Select the tab which came before the closed one (left in horizontal, above in vertical).
 # ##   - next: Select the tab which came after the closed one (right in horizontal, below in vertical).
 # ##   - last-used: Select the previously selected tab.
-# c.tabs.select_on_remove = 'next'
+c.tabs.select_on_remove = 'prev'
 
 # ## When to show the tab bar.
 # ## Type: String
@@ -2298,6 +2298,9 @@ config.bind('zletd', 'open -b https://letterboxd.com/tildavimer/films/diary/')
 config.bind('zletw', 'open -b https://letterboxd.com/tildavimer/watchlist/')
 config.bind('zletl', 'open -b https://letterboxd.com/tildavimer/lists/')
 
+# Source config
+config.bind('zz', 'config-source')
+
 # VCS / Github / Codeberg
 config.bind('xbr', 'open -b https://codeberg.org/tildavimer')
 config.bind('xbs', 'open -b https://codeberg.org/tildavimer?tab=stars')
@@ -2326,6 +2329,7 @@ config.bind('<Ctrl+M>', 'hint links spawn --detach mpv {hint-url}')
 # config.bind(';f', 'hint all tab-fg')
 config.bind('<Alt-F>', 'hint all hover')
 config.bind('D', 'hint all hover')
+config.bind(';;', 'hint all hover')
 # config.bind(';i', 'hint images')
 # config.bind(';o', 'hint links fill :open {hint-url}')
 config.bind('<Ctrl-F>', 'hint --rapid links tab-bg')
@@ -2376,9 +2380,10 @@ config.bind('<Ctrl-F>', 'hint --rapid links tab-bg')
 # config.bind('=', 'zoom')
 # config.bind('?', 'set-cmd-text ?')
 # config.bind('@', 'macro-run')
-# config.bind('B', 'set-cmd-text -s :quickmark-load -t')
 # config.bind('D', 'tab-close -o')
-# config.bind('F', 'hint all tab')
+config.bind(',,', 'hint all tab')
+config.bind('bb', 'hint all tab')
+# config.bind('B', 'set-cmd-text -s :quickmark-load -t')
 # config.bind('G', 'scroll-to-perc')
 # config.bind('H', 'back')
 config.bind('J', 'tab-prev')
@@ -2404,7 +2409,7 @@ config.bind('Ss', 'set')
 # config.bind(']]', 'navigate next')
 # config.bind('`', 'mode-enter set_mark')
 config.bind('cc', 'download-cancel')
-config.bind('b', 'set-cmd-text -s :quickmark-load')
+# config.bind('b', 'nop')
 config.bind('cd', 'download-clear')
 config.bind('co', 'tab-only')
 config.bind('d', 'tab-close')
@@ -2415,11 +2420,13 @@ config.bind('d', 'tab-close')
 # config.bind('gB', 'set-cmd-text -s :bookmark-load -t')
 config.bind('gC', 'tab-clone')
 config.bind('gD', 'tab-give')
-config.bind('gJ', 'tab-move +')
-config.bind('gK', 'tab-move -')
+config.bind('bj', 'tab-move -')
+config.bind('bk', 'tab-move +')
+config.bind('b0', 'tab-focus 1')
+config.bind('bp', 'tab-focus last')
+config.bind('b$', 'tab-focus -1')
 # config.bind('gO', 'set-cmd-text :open -t -r {url:pretty}')
 # config.bind('gU', 'navigate up -t')
-# config.bind('g^', 'tab-focus 1')
 # config.bind('ga', 'open -t')
 # config.bind('gb', 'set-cmd-text -s :bookmark-load')
 config.bind('gd', 'download')
