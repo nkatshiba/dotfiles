@@ -232,3 +232,25 @@ syncthingctl
 -S syncthing
 -S syncthingtray
 visidata
+-S iw
+-S hostapd
+-S linux-wifi-hot
+-Ss linux-wifi-hot
+-S linux-wifi-hotspot
+-S shairport-sync
+-S mono
+-S libavahi
+-S rygel
+-S tcpdump
+-S rtpdump
+-Ss rtpdump
+-S audiorelay
+-S zeroconf
+-Ss zeroconf
+-S pulseaudio-rtp
+-S vlc
+-S soundwire
+-S prowl
+-Ss prowl
+-S protonmail-nativefi
+-S protonmail-nativefier
