@@ -208,9 +208,8 @@ window#waybar {
 /* -------------------------------------------------------------------------------- */
 
 #pulseaudio.audio {
-  background-color: #F38BA8;
-  /* background-color: @green; */
-  color: @crust;
+  background-color: @crust;
+  color: #F38BA8;
 }
 
 #pulseaudio.audio:hover {
@@ -227,7 +226,7 @@ window#waybar {
 }
 
 #pulseaudio.audio.muted {
-  background-color: @red;
+  background-color: #F38BA8;
   color: @crust;
 }
 

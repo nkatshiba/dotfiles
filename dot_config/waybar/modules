@@ -105,10 +105,11 @@
   // },
   
   "pulseaudio#audio": {
-    "format": "{icon} {volume}%",
+    //"format": "{icon} {volume}%",
+    "format": "{volume}%",
     "format-bluetooth": "󰂯{icon} {volume}%",
     "format-bluetooth-muted": "󰂯󰖁 {volume}%",
-    "format-muted": "󰀝 {volume}%",
+    "format-muted": "{volume}%",
     //"format-muted": "󰀞󰪑󰛅󱡟󱃓󱣼󰩅󱜢󱑫󱫮󱐴󰻹󰀝 {volume}%",
     "format-icons": {
       "headphone": "󰋋",
