@@ -14,8 +14,8 @@
 	#
 	# Otherwise, fonts are interpreted in Pango format.
 	# font = "/usr/share/fonts/OTF/Caskaydia\ Cove\ Nerd\ Font\ Complete\ Mono\ Bold.otf"
-	# font = "CaskaydiaCove Nerd Font Mono"
-	font = "~/caskaydia_mono_bold.otf"
+	font = "CaskaydiaCove Nerd Font Bold"
+	# font = "~/caskaydia_mono_bold.otf"
 
 	# Point size of text.
 	font-size = 12

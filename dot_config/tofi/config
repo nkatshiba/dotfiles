@@ -13,9 +13,7 @@
 	# characters not in the chosen font will fail to render.
 	#
 	# Otherwise, fonts are interpreted in Pango format.
-	# font = "/usr/share/fonts/OTF/Caskaydia\ Cove\ Nerd\ Font\ Complete\ Mono\ Bold.otf"
-	# font = "CaskaydiaCove Nerd Font Mono"
-	font = "~/caskaydia_mono_bold.otf"
+	font = "CaskaydiaCove Nerd Font Bold"
 
 	# Point size of text.
 	font-size = 12
@@ -266,7 +264,7 @@
 	# algorithm.
 	#
 	# Supported values: normal, prefix, fuzzy
-	matching-algorithm = normal
+	# matching-algorithm = normal
 
 	# If true, require a match to allow a selection to be made. If false,
 	# making a selection with no matches will print input to stdout.
