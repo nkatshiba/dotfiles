@@ -2400,6 +2400,7 @@ config.bind('K', 'tab-next')
 # config.bind('N', 'search-prev')
 config.bind('O', 'set-cmd-text -s :open -b')
 config.bind('öö', 'set-cmd-text -s :open -p')
+config.bind('<Ctrl-o>', 'spawn --userscript /home/xshiba/.config/qutebrowser/userscripts/qtofi tab')
 # config.bind('Pp', 'open -t -- {primary}')
 config.bind('pp', 'open -t -- {clipboard}')
 # config.bind('R', 'reload -f')
@@ -2518,6 +2519,7 @@ config.bind('r', 'reload')
 # config.bind('yy', 'yank')
 # config.bind('{{', 'navigate prev -t')
 # config.bind('}}', 'navigate next -t')
+
 
 # ## Bindings for caret mode
 # config.bind('$', 'move-to-end-of-line', mode='caret')
@@ -2667,3 +2669,7 @@ def rewrite(request: qutebrowser.api.interceptor.Request):
         pass
 
 qutebrowser.api.interceptor.register(rewrite)
+
+# x6
+config.bind('yx', "yank inline '{title} {url}';; spawn wezterm start --always-new-process -- /home/xshiba/src/scripts/x6.sh")
+# config.bind('yx', "yank inline '{title} {url}'")
