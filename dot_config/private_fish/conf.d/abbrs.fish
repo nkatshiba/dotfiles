@@ -1,6 +1,7 @@
 # System specific functions
 abbr -a rmrf 'rm -rfi'
 abbr -a :q exit
+abbr -a cpr 'cp -r'
 
 # wl-clipboard
 abbr -a wlc 'wl-copy -n'

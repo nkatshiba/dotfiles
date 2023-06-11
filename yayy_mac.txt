@@ -264,3 +264,10 @@ visidata
 -S qutebrowser-profile-git
 -Ss kill
 -Si wf-kill-git
+-S wofi
+-S python-qutescript-git
+-S qutejs
+-S dmenu
+-Ss bign
+-Ss bing
+-Ss gpt
