@@ -1,3 +1,8 @@
+# GTK:
+  Widget: Dracula
+  Icons: Dracula
+  Cursor: Bibabata-modern-pink
+
 progress
 wezterm
 bat
@@ -255,3 +260,7 @@ visidata
 -S protonmail-nativefi
 -S protonmail-nativefier
 -S wezterm
+-Ss qutebrowser-profile-git
+-S qutebrowser-profile-git
+-Ss kill
+-Si wf-kill-git
