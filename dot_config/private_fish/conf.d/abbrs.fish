@@ -243,3 +243,4 @@ abbr -a atoi "cvlc -vvv pulse://alsa_output.pci-0000_00_1f.3.analog-stereo.7.mon
 abbr -a ata "cvlc -vvv pulse://alsa_output.pci-0000_00_1f.3.analog-stereo.7.monitor --sout '#transcode{acodec=mp3,ab=32,channels=2}:standard{access=http,dst=0.0.0.0:8888/pc.mp3}'"
 abbr -a 123 "pass -c zZz/123/nkatshiba@proton.me"
 abbr -a ., "./"
+# abbr -a rk "rip && ls"
