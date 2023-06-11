@@ -254,3 +254,4 @@ visidata
 -Ss prowl
 -S protonmail-nativefi
 -S protonmail-nativefier
+-S wezterm
