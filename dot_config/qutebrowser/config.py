@@ -1962,7 +1962,7 @@ c.new_instance_open_target = 'tab-bg-silent'
 # ##   - prev: Select the tab which came before the closed one (left in horizontal, above in vertical).
 # ##   - next: Select the tab which came after the closed one (right in horizontal, below in vertical).
 # ##   - last-used: Select the previously selected tab.
-c.tabs.select_on_remove = 'prev'
+c.tabs.select_on_remove = 'next'
 
 # ## When to show the tab bar.
 # ## Type: String
@@ -2165,7 +2165,7 @@ c.url.searchengines['rny'] = 'https://old.reddit.com/search/?q={}&sort=new&restr
 c.url.searchengines['aw'] = 'https://wiki.archlinux.org/?search={}'
 c.url.searchengines['aurp'] = 'https://www.archlinux.org/packages/?sort=&q={}'
 c.url.searchengines['aur'] = 'https://aur.archlinux.org/packages?O=0&SeB=nd&K={}&outdated=&SB=p&SO=d&PP=50&submit=Go'
-c.url.searchengines['ab'] = 'https://bugs.archlinux.org/?project=5&string={}'
+c.url.searchengines['abu'] = 'https://bugs.archlinux.org/?project=5&string={}'
 # c.url.searchengines[''] = ''
 
 # VCS
@@ -2176,11 +2176,9 @@ c.url.searchengines['gh'] = 'https://github.com/search?o=desc&q={}&s=stars'
 ## Codeberg
 c.url.searchengines['cb'] = 'https://codeberg.org/explore/repos?sort=moststars&q={}&language='
 
-
 # SOCIAL
 c.url.searchengines['tw'] = 'https://twitter.com/search?q={}'
 # c.url.searchengines[''] = ''
-
 
 # MEDIA
 c.url.searchengines['od'] = 'https://odysee.com/$/search?q={}'
@@ -2189,11 +2187,13 @@ c.url.searchengines['im'] = 'https://www.imdb.com/find/?q={}&ref_=nv_sr_sm'
 c.url.searchengines['let'] = 'https://letterboxd.com/search/{}/'
 # c.url.searchengines[''] = ''
 
-
 # OTHER
 c.url.searchengines['pry'] = 'https://pry.sh/{}'
 c.url.searchengines['kk'] = 'http://xxxadulttorrent.org/search/0/0/0/2/{}'
 # c.url.searchengines[''] = ''
+
+
+
 
 ### &-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-& ###
 
@@ -2286,9 +2286,7 @@ config.bind('zsyd', 'open -b https://www.sydsvenskan.se/')
 config.bind('zbook', 'open -b https://old.reddit.com/r/sportsbook/search/?q=of+the+Day&sort=relevance&restrict_sr=on&t=day')
 config.bind('zleo', 'open -b https://www.leovegas.com/sv-se/logga-in?view=loginRegular')
 config.bind('zsgpt', 'open -b https://www.stealthgpt.ai/')
-config.bind('zbox', 'open -b https://lowendbox.com/')
-config.bind('ztalk', 'open -b https://lowendtalk.com/categories/offers')
-config.bind('zvps', 'open -b https://clients.advinservers.com/clientarea.php?action=productdetails&id=7520')
+
 
 # Letterboxd
 config.bind('zletb', 'open -b https://letterboxd.com/')
@@ -2310,6 +2308,15 @@ config.bind('xgr', 'open -b https://github.com/nkatshiba?tab=repositories')
 config.bind('xgs', 'open -b https://github.com/nkatshiba?tab=stars')
 config.bind('xgg', 'open -b https://gist.github.com/nkatshiba')
 config.bind('xgd', 'open -b https://github.com/nkatshiba/dotfiles-mbp131-arch-2023')
+
+# VPS
+config.bind('ää', 'open -b about:blank')
+config.bind('äd', 'open -b http://212.193.3.135:7575/')
+config.bind('äm', 'open -b https://vps.advinservers.com/servers/476e06d8')
+config.bind('äa', 'open -b https://clients.advinservers.com/clientarea.php')
+config.bind('äb1', 'open -b https://lowendbox.com/')
+config.bind('äb2', 'open -b https://lowendtalk.com/categories/offers')
+
 
 # Binds
 config.bind('<Ctrl+V>', 'open -b {clipboard}')
