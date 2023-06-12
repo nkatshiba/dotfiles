@@ -17,6 +17,9 @@ set -gx MOZ_ENABLE_WAYLAND 1
 set -gx GDK_BACKEND wayland
 set -gx SUDO_EDITOR nvim
 
+# Qutebrowser
+set -gx QUTE_CONFIG_DIR "$HOME/.config/qutebrowser/"
+
 # Source
 source ~/.config/fish/functions/_HELPERS.fish
 source ~/.asdf/asdf.fish
