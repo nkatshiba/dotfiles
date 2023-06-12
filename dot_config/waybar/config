@@ -14,7 +14,7 @@
   "margin-right": 0,
 
   // Size of gaps in between of the different modules. Default: 4.
-  "spacing": 1,
+  "spacing": 0,
 
   "fixed-center": true,
 
@@ -39,7 +39,8 @@
   "modules-center": [
     "battery",
     "clock",
-    "pulseaudio#audio"
+    "pulseaudio#audio",
+    "pulseaudio#microphone"
     //"hyprland/window",
    ],
 
@@ -51,7 +52,6 @@
     "network#wlo1",
     "network#eno1",
     "custom/weather",
-    "pulseaudio#microphone",
     "tray"
     //"pulseaudio",
     //"bluetooth",
