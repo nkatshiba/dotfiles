@@ -2128,8 +2128,8 @@ c.url.searchengines['tsol'] = 'https://solidtorrents.to/search?q={}&sort=seeders
 
 
 # TRANSLATE / WORD PROCESSING
-c.url.searchengines['tr'] = 'https://www.deepl.com/translator#sv/en/{}'
-c.url.searchengines['tre'] = 'https://www.deepl.com/translator#en/sv/{}'
+c.url.searchengines['tfs'] = 'https://www.deepl.com/translator#sv/en/{}'
+c.url.searchengines['tfe'] = 'https://www.deepl.com/translator#en/sv/{}'
 c.url.searchengines['th'] = 'https://www.thesaurus.com/browse/{}'
 c.url.searchengines['mw'] = 'https://www.merriam-webster.com/thesaurus/{}'
 c.url.searchengines['mwd'] = 'https://www.merriam-webster.com/dictionary/{}'
@@ -2671,5 +2671,7 @@ def rewrite(request: qutebrowser.api.interceptor.Request):
 qutebrowser.api.interceptor.register(rewrite)
 
 # x6
-config.bind('yx', "yank inline '{title} {url}';; spawn wezterm start --always-new-process -- /home/xshiba/src/scripts/x6.sh")
-# config.bind('yx', "yank inline '{title} {url}'")
+config.bind(',y', "yank inline '{title} {url}';; spawn wezterm start --always-new-process -- /home/xshiba/src/scripts/x6.sh")
+config.bind(',x', 'spawn --userscript /home/xshiba/.config/qutebrowser/userscripts/qx6 tab')
+
+

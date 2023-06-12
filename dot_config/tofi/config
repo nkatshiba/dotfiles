@@ -13,10 +13,12 @@
 	# characters not in the chosen font will fail to render.
 	#
 	# Otherwise, fonts are interpreted in Pango format.
+	# font = "/usr/share/fonts/OTF/Caskaydia\ Cove\ Nerd\ Font\ Complete\ Mono\ Bold.otf"
 	font = "CaskaydiaCove Nerd Font Bold"
+	# font = "~/caskaydia_mono_bold.otf"
 
 	# Point size of text.
-	font-size = 12
+	font-size = 14
 
 	# Comma separated list of OpenType font feature settings to apply,
 	# if supported by the chosen font. The format is similar to the CSS
@@ -25,8 +27,8 @@
 	# Examples:
 	#
 	# font-features = "smcp, c2sc" (all small caps)
-	# font-features = "liga 0" (disable ligatures)
-	font-features = ""
+	font-features = "liga 0" (disable ligatures)
+	# font-features = ""
 
 	# Comma separated list of OpenType font variation settings to apply
 	# to variable fonts. The format is similar to the CSS
@@ -50,7 +52,7 @@
 	# Default text color
 	#
 	# All text defaults to this color if not otherwise specified.
-	text-color = #FFFFFF
+
 
 	# All pieces of text have the same theming attributes available:
 	#
@@ -102,18 +104,13 @@
 	# alternate-result-background-corner-radius = 0
 
 	# Selection text
-	selection-color = #F92672
-	# selection-color = #F3C583
-	# selection-color = #E373A5
-	# selection-color = #FCB5AB
-	# selection-color = #F92672
-	selection-background = #00000000
+	selection-color = #ff6090
+	text-color = #06D6A0
+	selection-match-color = #FCB5AB
+ 
+	# selection-background = #00000000
 	selection-background-padding = 0
 	selection-background-corner-radius = 0
-
-	# Matching portion of selection text
-	selection-match-color = #00000000
-
 
 #
 ### Text cursor theme
@@ -148,7 +145,7 @@
 ### Text layout
 #
 	# Prompt to display.
-	prompt-text = "LFG: "
+	prompt-text = ""
 
 	# Extra horizontal padding between prompt and input.
 	prompt-padding = 0
@@ -177,7 +174,9 @@
 	height = 100%
 
 	# Window background color
-	background-color = #000A
+	background-color = #000000
+  # background-color = #161616
+	# background-color = #00000A
 
 	# Width of the border outlines in pixels.
 	outline-width = 0
@@ -186,7 +185,7 @@
 	outline-color = #080800
 
 	# Width of the border in pixels.
-	border-width = 5
+	border-width = 10
 
 	# Border color
 	border-color = #F92672
@@ -199,8 +198,8 @@
 	# Padding between borders and text. Can be pixels or a percentage.
 	padding-top = 35%
 	padding-bottom = 8
-	padding-left = 35%
-	padding-right = 8
+	padding-left = 47%
+	# padding-right = 50%
 
 	# Whether to clip text drawing to be within the specified padding. This
 	# is mostly important for allowing text to be inset from the border,
@@ -264,7 +263,7 @@
 	# algorithm.
 	#
 	# Supported values: normal, prefix, fuzzy
-	# matching-algorithm = normal
+	matching-algorithm = normal
 
 	# If true, require a match to allow a selection to be made. If false,
 	# making a selection with no matches will print input to stdout.
