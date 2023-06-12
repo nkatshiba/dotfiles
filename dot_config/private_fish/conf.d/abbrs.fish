@@ -2,6 +2,8 @@
 abbr -a rmrf 'rm -rfi'
 abbr -a :q exit
 abbr -a cpr 'cp -r'
+abbr -a pwd pwdcp
+abbr -a pwg pwdcd
 
 # wl-clipboard
 abbr -a wlc 'wl-copy -n'
@@ -54,8 +56,6 @@ abbr -a nts 'cd ~/nts/'
 abbr -a prts 'cd ~/Pictures/screens'
 abbr -a ... 'cd ../../'
 abbr -a .... 'cd ../../../'
-abbr -a xx 'cd ~/.6x/ && clear && ls -a'
-abbr -a pp 'vi ~/.6x/.pp.md'
 abbr -a play 'clear && cd $HOME/src/PLAYGROUND/ && ls'
 abbr -a src 'cd ~/src/'
 abbr -a mlv mullvad
@@ -116,7 +116,9 @@ abbr -a cma 'chezmoi add'
 abbr -a cmappv 'chezmoi apply -v'
 abbr -a cmapp 'chezmoi apply'
 abbr -a cmcd 'chezmoi cd'
-abbr -a cmdi 'chezmoi diff'
+abbr -a cmdii 'chezmoi diff'
+abbr -a cmdi "chezmoi diff | rg --line-number 'diff --git a/'"
+
 abbr -a vii 'chezmoi edit'
 abbr -a cms 'chezmoi status'
 abbr -a cmf 'chezmoi forget && fish'
@@ -136,7 +138,7 @@ abbr -a h2 "eval (history | head -n2 | tail -n1 | sed 's/^[ ]*[0-9]*[ ]*//')"
 #abbr -a yay yayy
 
 # Dos
-abbr -a dos pass -c 000/dosen/dos/URI/prvt/dos1
+# abbr -a dos pass -c 000/dosen/dos/URI/prvt/dos1 && exec $wl-paste
 
 # Pass
 abbr -a passl 'clear && pass ls'
@@ -148,6 +150,7 @@ abbr -a passi pass insert
 abbr -a passg pass git
 abbr -a passh pass help
 abbr -a pac 'pass -c'
+abbr -a pas 'pass -c'
 
 # Convert
 abbr -a convertzip 'convert -density 150 -compress Zip'
@@ -245,3 +248,18 @@ abbr -a ata "cvlc -vvv pulse://alsa_output.pci-0000_00_1f.3.analog-stereo.7.moni
 abbr -a 123 "pass -c zZz/123/nkatshiba@proton.me"
 abbr -a ., "./"
 # abbr -a rk "rip && ls"
+
+# x6
+abbr -a xx 'cd ~/.6x/ && clear && ls -a'
+abbr -a xl 'less +F ~/.6x/x6quickmarks'
+abbr -a pp 'vi ~/.6x/.pp.md'
+
+
+# LaTeX
+abbr -a cont 'vi ~/src/latex/neural/content.tex'
+abbr -a gg 'echo "\$\\gg\$" | wl-copy -n'
+abbr -a ll 'echo "\$\\ll\$" | wl-copy -n'
+abbr -a cc gpt
+abbr -a sy 'gpt With the intention to be included into an academic paper, please provide synonyms or/and words,sentences or phrases analogous or similar to the following: "'
+abbr -a isit 'gpt With the intention to be included into an academic paper, is it correct and suitable to formulate the following: "'
+abbr -a scr 'cd $HOME/src/scripts/ && clear && lsd'

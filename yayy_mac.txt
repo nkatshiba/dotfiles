@@ -271,3 +271,5 @@ visidata
 -Ss bign
 -Ss bing
 -Ss gpt
+gpg-tui
+-S gpa
