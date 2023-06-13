@@ -2310,7 +2310,9 @@ config.bind('xgg', 'open -b https://gist.github.com/nkatshiba')
 config.bind('xgd', 'open -b https://github.com/nkatshiba/dotfiles-mbp131-arch-2023')
 
 # VPS
-config.bind('ää', 'open -b about:blank ;; tab-focus -1')
+config.bind('ÄÄ', 'open -b about:blank ;; tab-focus -1')
+config.bind('ää', 'open -b https://blackscreen.app/ ;; tab-focus -1')
+
 config.bind('äd', 'open -b http://212.193.3.135:7575/')
 config.bind('äm', 'open -b https://vps.advinservers.com/servers/476e06d8')
 config.bind('äa', 'open -b https://clients.advinservers.com/clientarea.php')
