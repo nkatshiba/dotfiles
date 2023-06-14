@@ -273,3 +273,4 @@ visidata
 -Ss gpt
 gpg-tui
 -S gpa
+-S udevil
