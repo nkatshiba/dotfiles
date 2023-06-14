@@ -208,16 +208,19 @@ abbr -a cell celluloid
 abbr -a ww 'killall waybar && sleep 0.2 && hyprctl dispatch exec waybar && clear && echo "exec waybar at: ---" (date +'%H:%M')'
 abbr -a yt 'yt-dlp "'
 
+# Wez
+abbr -a wek 'hyprctl dispatch exec wezterm connect unix'
+abbr -a sr 'wezterm cli split-pane --right'
+abbr -a h 'wezterm cli activate-pane-direction Left'
+abbr -a l 'wezterm cli activate-pane-direction Right'
+abbr -a bell 'echo -e "\a"'
+
 # p4p4
 abbr -a ya 'yaya -S'
 abbr -a yas 'yay -Ss'
 abbr -a yai 'yay -Si'
 abbr -a yar 'yay -Rs'
 abbr -a kk 'clear -x && eval $history[1]'
-abbr -a wek 'hyprctl dispatch exec wezterm connect unix'
-abbr -a sr 'wezterm cli split-pane --right'
-abbr -a h 'wezterm cli activate-pane-direction Left'
-abbr -a l 'wezterm cli activate-pane-direction Right'
 abbr -a ckbn '/home/xshiba/src/scripts/ckb_next/ckb-next_exec.sh'
 abbr -a pa pass
 abbr -a dela 'clear && env TZ=America/New_York date'
@@ -249,12 +252,6 @@ abbr -a 123 "pass -c zZz/123/nkatshiba@proton.me"
 abbr -a ., "./"
 # abbr -a rk "rip && ls"
 
-# x6
-abbr -a xx 'cd ~/.6x/ && clear && ls -a'
-abbr -a xl 'less +F ~/.6x/x6quickmarks'
-abbr -a pp 'vi ~/.6x/.pp.md'
-
-
 # LaTeX
 abbr -a cont 'vi ~/src/latex/neural/content.tex'
 abbr -a gg 'echo "\$\\gg\$" | wl-copy -n'
@@ -263,3 +260,21 @@ abbr -a cc gpt
 abbr -a sy 'gpt With the intention to be included into an academic paper, please provide synonyms or/and words,sentences or phrases analogous or similar to the following: "'
 abbr -a isit 'gpt With the intention to be included into an academic paper, is it correct and suitable to formulate the following: "'
 abbr -a scr 'cd $HOME/src/scripts/ && clear && lsd'
+
+# x6
+abbr -a xx 'cd ~/.6x/ && clear && ls -a'
+## Main/videos
+abbr -a xxv 'vi ~/.6x/xxvi'
+abbr -a xxvc 'bat ~/.6x/xxvi'
+abbr -a xxvcc 'command cat ~/.6x/xxvi'
+abbr -a xxvm 'less +F ~/.6x/xxvi'
+## Search/Tube
+abbr -a xxt 'vi ~/.6x/xxtu'
+abbr -a xxtc 'bat ~/.6x/xxtu'
+abbr -a xxtcc 'command cat ~/.6x/xxtu'
+abbr -a xxtm 'less +F ~/.6x/xxtu'
+## Lek
+abbr -a xxl 'vi ~/.6x/xxle'
+abbr -a xxlc 'bat ~/.6x/xxle'
+abbr -a xxlcc 'command cat ~/.6x/xxle'
+abbr -a xxlm 'less +F ~/.6x/xxle'
