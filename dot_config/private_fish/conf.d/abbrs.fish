@@ -1,3 +1,22 @@
+# > x6 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+abbr -a xx 'cd ~/.6x/ && clear && ls -a'
+## Main/videos
+abbr -a xxv 'vi ~/.6x/xxvi'
+abbr -a xxvc 'bat ~/.6x/xxvi'
+abbr -a xxvcc 'command cat ~/.6x/xxvi'
+abbr -a xxvm 'less +F ~/.6x/xxvi'
+## Search/Tube
+abbr -a xxt 'vi ~/.6x/xxtu'
+abbr -a xxtc 'bat ~/.6x/xxtu'
+abbr -a xxtcc 'command cat ~/.6x/xxtu'
+abbr -a xxtm 'less +F ~/.6x/xxtu'
+## Lek
+abbr -a xxl 'vi ~/.6x/xxle'
+abbr -a xxlc 'bat ~/.6x/xxle'
+abbr -a xxlcc 'command cat ~/.6x/xxle'
+abbr -a xxlm 'less +F ~/.6x/xxle'
+# < /x6 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # System specific functions
 abbr -a rmrf 'rm -rfi'
 abbr -a :q exit
@@ -263,25 +282,6 @@ abbr -a scr 'cd $HOME/src/scripts/ && clear && lsd'
 
 # > quickedit -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-abbr -a hhh 'vi $HOME/.config/hypr/hyprland.conf && echo $CHEZMOI_STR'
-abbr -a qqq 'vi $HOME/.config/qutebrowser/config.py && echo $CHEZMOI_STR'
+abbr -a hhh 'cd $HOME/.config/hypr/ && vi $HOME/.config/hypr/hyprland.conf && echo $CHEZMOI_STR'
+abbr -a qqq 'cd $HOME/.config/qutebrowser/ && vi $HOME/.config/qutebrowser/config.py && echo $CHEZMOI_STR'
 # < /quickedit -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-# > x6 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-abbr -a xx 'cd ~/.6x/ && clear && ls -a'
-## Main/videos
-abbr -a xxv 'vi ~/.6x/xxvi'
-abbr -a xxvc 'bat ~/.6x/xxvi'
-abbr -a xxvcc 'command cat ~/.6x/xxvi'
-abbr -a xxvm 'less +F ~/.6x/xxvi'
-## Search/Tube
-abbr -a xxt 'vi ~/.6x/xxtu'
-abbr -a xxtc 'bat ~/.6x/xxtu'
-abbr -a xxtcc 'command cat ~/.6x/xxtu'
-abbr -a xxtm 'less +F ~/.6x/xxtu'
-## Lek
-abbr -a xxl 'vi ~/.6x/xxle'
-abbr -a xxlc 'bat ~/.6x/xxle'
-abbr -a xxlcc 'command cat ~/.6x/xxle'
-abbr -a xxlm 'less +F ~/.6x/xxle'
-# < /x6 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
