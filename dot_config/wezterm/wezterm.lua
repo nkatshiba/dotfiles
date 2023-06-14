@@ -6,17 +6,16 @@ return {
 	-- Wayland
 	enable_wayland = true, -- default: true
 
-	-- font = wezterm.font("IosevkaTerm Nerd Font", { weight = "Bold" }),
-	-- font = wezterm.font("Iosevka Nerd Font Mono", { weight = "Bold" }),
+	-- Font
 	font = wezterm.font("CaskaydiaCove Nerd Font Mono", { weight = "Bold" }),
-
-	-- font_size = 10.75,
 	font_size = 10.0,
+
 	-- Appearance
 	color_scheme = "astromouse (terminal.sexy)",
 	enable_tab_bar = false,
 	enable_scroll_bar = false,
 	warn_about_missing_glyphs = false,
+
 	-- Window layout
 	window_padding = {
 		left = "1cell",
@@ -25,12 +24,22 @@ return {
 		bottom = "0.5cell",
 	},
 
+	-- Background opacity
+	window_background_opacity = 0.8,
+	text_background_opacity = 0.6,
+
+	-- Term cursor blink
+	default_cursor_style = "BlinkingUnderline",
+	---- default_cursor_style = "BlinkingBlock",
+	cursor_blink_rate = 500,
+
 	-- Close confirmation
 	window_close_confirmation = "NeverPrompt",
+
 	-- Visual bell
 	visual_bell = {
 		fade_in_function = "EaseIn",
-		fade_in_duration_ms = 950,
+		fade_in_duration_ms = 150,
 		fade_out_function = "EaseOut",
 		fade_out_duration_ms = 150,
 	},
@@ -38,8 +47,10 @@ return {
 		visual_bell = "#ff6090",
 	},
 
-	-- Keyboard shortcuts
+	-- Disable default keybindings
 	disable_default_key_bindings = true,
+
+	-- Keyboard shortcuts
 	keys = {
 		{ key = "V", mods = "CTRL", action = act.PasteFrom("Clipboard") },
 		{ key = "p", mods = "CTRL", action = act.PasteFrom("Clipboard") },
@@ -56,6 +67,7 @@ return {
 		{ key = "j", mods = "CTRL", action = act.ActivatePaneDirection("Prev") },
 		{ key = "k", mods = "CTRL", action = act.ActivatePaneDirection("Next") },
 	},
+
 	key_tables = {
 		search_mode = {
 			{ key = "Enter", mods = "NONE", action = act.CopyMode("NextMatch") },
