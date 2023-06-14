@@ -606,7 +606,7 @@ c.colors.tabs.selected.odd.bg = '#E475A5'
 # ##   - bookmarks
 # ##   - history
 # ##   - filesystem
-# c.completion.open_categories = ['searchengines', 'quickmarks', 'bookmarks', 'history', 'filesystem']
+c.completion.open_categories = ['quickmarks', 'searchengines', 'bookmarks', 'history', 'filesystem']
 
 # ## Move on to the next part when there's only one possible completion
 # ## left.
@@ -2398,7 +2398,6 @@ config.bind('bb', 'hint all tab')
 config.bind('J', 'tab-prev')
 config.bind('K', 'tab-next')
 # config.bind('L', 'forward')
-# config.bind('M', 'bookmark-add')
 # config.bind('N', 'search-prev')
 config.bind('O', 'set-cmd-text -s :open -b')
 config.bind('öö', 'set-cmd-text -s :open -p')
@@ -2453,6 +2452,7 @@ config.bind('gm', 'tab-move')
 # config.bind('k', 'scroll up')
 # config.bind('l', 'scroll right')
 # config.bind('m', 'quickmark-save')
+config.bind('M', 'quickmark-del')
 # config.bind('n', 'search-next')
 # config.bind('o', 'set-cmd-text -s :open')
 # config.bind('pP', 'open -- {primary}')
