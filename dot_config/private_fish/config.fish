@@ -20,6 +20,9 @@ set -gx SUDO_EDITOR nvim
 # Qutebrowser
 set -gx QUTE_CONFIG_DIR "$HOME/.config/qutebrowser/"
 
+# Chezmoi String
+set -gx CHEZMOI_STR "Don't forget to add file to chezmoi :))"
+
 # Source
 source ~/.config/fish/functions/_HELPERS.fish
 source ~/.asdf/asdf.fish

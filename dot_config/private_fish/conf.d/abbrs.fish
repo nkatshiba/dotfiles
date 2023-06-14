@@ -261,7 +261,13 @@ abbr -a sy 'gpt With the intention to be included into an academic paper, please
 abbr -a isit 'gpt With the intention to be included into an academic paper, is it correct and suitable to formulate the following: "'
 abbr -a scr 'cd $HOME/src/scripts/ && clear && lsd'
 
-# x6
+# > quickedit -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+abbr -a hhh 'vi $HOME/.config/hypr/hyprland.conf && echo $CHEZMOI_STR'
+abbr -a qqq 'vi $HOME/.config/qutebrowser/config.py && echo $CHEZMOI_STR'
+# < /quickedit -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# > x6 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 abbr -a xx 'cd ~/.6x/ && clear && ls -a'
 ## Main/videos
 abbr -a xxv 'vi ~/.6x/xxvi'
@@ -278,3 +284,4 @@ abbr -a xxl 'vi ~/.6x/xxle'
 abbr -a xxlc 'bat ~/.6x/xxle'
 abbr -a xxlcc 'command cat ~/.6x/xxle'
 abbr -a xxlm 'less +F ~/.6x/xxle'
+# < /x6 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
