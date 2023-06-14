@@ -24,6 +24,20 @@ return {
 		top = "1cell",
 		bottom = "0.5cell",
 	},
+
+	-- Close confirmation
+	window_close_confirmation = "NeverPrompt",
+	-- Visual bell
+	visual_bell = {
+		fade_in_function = "EaseIn",
+		fade_in_duration_ms = 950,
+		fade_out_function = "EaseOut",
+		fade_out_duration_ms = 150,
+	},
+	colors = {
+		visual_bell = "#ff6090",
+	},
+
 	-- Keyboard shortcuts
 	disable_default_key_bindings = true,
 	keys = {
