@@ -2673,7 +2673,13 @@ def rewrite(request: qutebrowser.api.interceptor.Request):
 qutebrowser.api.interceptor.register(rewrite)
 
 # x6
-config.bind(',y', "yank inline '{title} {url}';; spawn wezterm start --always-new-process -- /home/xshiba/src/scripts/x6.sh")
-config.bind(',x', 'spawn --userscript /home/xshiba/.config/qutebrowser/userscripts/qx6 tab')
+config.bind(',vy', "yank inline '{title} {url}';; spawn wezterm start --always-new-process -- /home/xshiba/src/scripts/xx/xxvi.sh")
+config.bind(',vi', 'spawn --userscript /home/xshiba/.config/qutebrowser/userscripts/xx/xxvi tab')
 
+
+config.bind(',ty', "yank inline '{title} {url}';; spawn wezterm start --always-new-process -- /home/xshiba/src/scripts/xx/xxtu.sh")
+config.bind(',tu', 'spawn --userscript /home/xshiba/.config/qutebrowser/userscripts/xx/xxtu tab')
+
+config.bind(',ly', "yank inline '{title} {url}';; spawn wezterm start --always-new-process -- /home/xshiba/src/scripts/xx/xxle.sh")
+config.bind(',le', 'spawn --userscript /home/xshiba/.config/qutebrowser/userscripts/xx/xxle tab')
 
