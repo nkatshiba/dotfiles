@@ -30,7 +30,11 @@ abbr -a wl-copy 'wl-copy -n'
 abbr -a wlp wl-paste
 
 # bat
-abbr -a cat bat
+abbr -a cak bat
+abbr -a cat 'command cat'
+abbr -a caka "clear && bat *"
+abbr -a cata "clear && bat *"
+# abbr -a clear ' wtype -M ctrl -k l -m ctrl'
 
 # abbr -a bf "clear && batgrep $argv  # batgrep <ACTION> <DIR/FP>"
 abbr -a bd batdiff
@@ -81,7 +85,6 @@ abbr -a mlv mullvad
 abbr -a c 'cd $HOME/.config/'
 
 # Apps
-abbr -a ccat 'command cat'
 abbr -a caa hyprpicker
 abbr -a kalk kalker
 abbr -a jj z
@@ -285,3 +288,4 @@ abbr -a scr 'cd $HOME/src/scripts/ && clear && lsd'
 abbr -a hhh 'cd $HOME/.config/hypr/ && vi $HOME/.config/hypr/hyprland.conf && echo $CHEZMOI_STR'
 abbr -a qqq 'cd $HOME/.config/qutebrowser/ && vi $HOME/.config/qutebrowser/config.py && echo $CHEZMOI_STR'
 # < /quickedit -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+abbr -a drugsi "imv -f $HOME/Pictures/drug_interaction_chart.jpg"
