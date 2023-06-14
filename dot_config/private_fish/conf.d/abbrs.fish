@@ -115,7 +115,7 @@ abbr -a ce 'chezmoi edit'
 abbr -a cma 'chezmoi add'
 abbr -a cmappv 'chezmoi apply -v'
 abbr -a cmapp 'chezmoi apply'
-abbr -a cmcd 'chezmoi cd'
+abbr -a cmcd 'cd $HOME/.local/share/chezmoi/dot_config'
 abbr -a cmdii 'chezmoi diff'
 abbr -a cmdi "chezmoi diff | rg --line-number 'diff --git a/'"
 
