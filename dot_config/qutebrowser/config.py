@@ -2312,6 +2312,8 @@ config.bind('xgd', 'open -b https://github.com/nkatshiba/dotfiles-mbp131-arch-20
 # VPS
 config.bind('ÄÄ', 'open -b about:blank ;; tab-focus -1')
 config.bind('ää', 'open -b https://blackscreen.app/ ;; tab-focus -1')
+config.bind('åå', 'open -b about:blank ;; tab-focus -1')
+
 
 config.bind('äd', 'open -b http://212.193.3.135:7575/')
 config.bind('äm', 'open -b https://vps.advinservers.com/servers/476e06d8')
@@ -2390,7 +2392,7 @@ config.bind('<Ctrl-F>', 'hint --rapid links tab-bg')
 # config.bind('?', 'set-cmd-text ?')
 # config.bind('@', 'macro-run')
 # config.bind('D', 'tab-close -o')
-config.bind(',,', 'hint all tab')
+# config.bind(',,', 'hint all tab')
 config.bind('bb', 'hint all tab')
 # config.bind('B', 'set-cmd-text -s :quickmark-load -t')
 # config.bind('G', 'scroll-to-perc')
@@ -2675,6 +2677,7 @@ qutebrowser.api.interceptor.register(rewrite)
 # x6
 config.bind(',vy', "yank inline '{title} {url}';; spawn wezterm start --always-new-process -- /home/xshiba/src/scripts/xx/xxvi.sh")
 config.bind(',vi', 'spawn --userscript /home/xshiba/.config/qutebrowser/userscripts/xx/xxvi tab')
+config.bind(',,', 'spawn --userscript /home/xshiba/.config/qutebrowser/userscripts/xx/xxvi tab')
 
 
 config.bind(',ty', "yank inline '{title} {url}';; spawn wezterm start --always-new-process -- /home/xshiba/src/scripts/xx/xxtu.sh")
