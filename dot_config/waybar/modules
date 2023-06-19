@@ -35,11 +35,11 @@
         "10": "",
         //󰎍󰽰󱟛    󰃘 󰰽 󰅢 󰭽 󰇚 󱑢 󱑣 󱑤 󱑥 󰧩 󰮏 󰮏 󰉍 󱃩 󰥥 󰥦 
         //󰚢 󰈎 󰵅 󰍡 󰚢 󱧌 󱅯 󰍦 󱅰 󰍨 󱜽 󰛰 󰚚 󰍩 󱧎 󰍫 󰍪 󰎄 󰎅 󰎈 󰎆
-        "20": "<span font_desc='CaskaydiaCove Nerd Font Mono 18'>󰝚</span>",
-        "88": "<span font_desc='CaskaydiaCove Nerd Font Mono 20'></span>",
+        //"20": "<span font_desc='CaskaydiaCove Nerd Font Mono 18'>󰝚</span>",
+        //"88": "<span font_desc='CaskaydiaCove Nerd Font Mono 20'></span>",
         //"rocket": "<span font_desc='CaskaydiaCove Nerd Font Mono 16'></span>",
         //webcord": "<span font_desc='CaskaydiaCove Nerd Font Mono 16'>󰙯</span>",
-        "qB": "<span font_desc='CaskaydiaCove Nerd Font Mono 17'>󰦗</span>",
+        //"qB": "<span font_desc='CaskaydiaCove Nerd Font Mono 17'>󰦗</span>",
         //signal": "<span font_desc='CaskaydiaCove Nerd Font Mono 16'>󱜾</span>",
         //caprine": "<span font_desc='CaskaydiaCove Nerd Font Mono 16'>󰈎</span>",
     }
