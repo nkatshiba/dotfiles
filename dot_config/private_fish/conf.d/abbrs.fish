@@ -196,6 +196,8 @@ abbr -a hctl hyprctl
 abbr -a hctld 'hyprctl dispatch'
 abbr -a hctle 'hyprctl exec'
 abbr -a hctlc 'hyprctl clients'
+abbr -a hctlcg 'hyprctl clients | rg'
+
 abbr -a hctlw 'hyprctl workspaces'
 abbr -a hctlr 'hyprctl reload'
 ## brightnessctl
@@ -289,3 +291,4 @@ abbr -a hhh 'cd $HOME/.config/hypr/ && vi $HOME/.config/hypr/hyprland.conf && ec
 abbr -a qqq 'cd $HOME/.config/qutebrowser/ && vi $HOME/.config/qutebrowser/config.py && echo $CHEZMOI_STR'
 # < /quickedit -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 abbr -a drugsi "imv -f $HOME/Pictures/drug_interaction_chart.jpg"
+abbr -a keta 'clear && pass C0RD14L5/Keta'
