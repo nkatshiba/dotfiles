@@ -189,7 +189,7 @@
       "critical": 15
     },
     "design-capacity": false,
-    "interval": 60,
+    "interval": 15,
     "format": "{icon} {capacity}%",
     "format-charging": " {capacity}%",
     "format-plugged": "󱘖 {capacity}%",

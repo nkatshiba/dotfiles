@@ -85,7 +85,7 @@ abbr -a mlv mullvad
 abbr -a c 'cd $HOME/.config/'
 
 # Apps
-abbr -a caa hyprpicker
+abbr -a hcol hyprpicker
 abbr -a kalk kalker
 abbr -a jj z
 abbr -a j z
@@ -129,6 +129,7 @@ abbr -a gbi 'git bisect'
 # Poetry
 abbr -a por 'poetry run python'
 abbr -a paa 'poetry run python main.py'
+abbr -a porm 'poetry run python main.py'
 
 # Chezmoi
 abbr -a cm chezmoi
@@ -182,7 +183,7 @@ abbr -a czip 'convert -density 150 -compress Zip'
 abbr -a sshnkat ssh root@174.138.101.143
 
 # ALMA
-abbr -a alma 'cd /home/abty/src/python/ALMA/Alma-bachelor-project'
+abbr -a alma 'cd ~/alma_project/ && clear && lsd'
 
 # MDT
 abbr -a mdt "mdt --prompt 'T-?¿?¿?:' -d '/home/xshiba/nts/__tasks_and_todos' -i 'TODO.md' --color '#E475A5'"
@@ -226,7 +227,7 @@ abbr -a pctlmu 'playerctl metadata xesam:url'
 abbr -a sonos 'playerctl volume'
 
 # Unsorted
-abbr -a mwa mongotimer
+abbr -a mst mongotimer
 abbr -a mti 'mongotimer -e '
 abbr -a cell celluloid
 abbr -a ww 'killall waybar && sleep 0.2 && hyprctl dispatch exec waybar && clear && echo "exec waybar at: ---" (date +'%H:%M')'
@@ -290,5 +291,35 @@ abbr -a scr 'cd $HOME/src/scripts/ && clear && lsd'
 abbr -a hhh 'cd $HOME/.config/hypr/ && vi $HOME/.config/hypr/hyprland.conf && echo $CHEZMOI_STR'
 abbr -a qqq 'cd $HOME/.config/qutebrowser/ && vi $HOME/.config/qutebrowser/config.py && echo $CHEZMOI_STR'
 # < /quickedit -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#
 abbr -a drugsi "imv -f $HOME/Pictures/drug_interaction_chart.jpg"
 abbr -a keta 'clear && pass C0RD14L5/Keta'
+abbr -a rka 'rk salaries.txt && vi main.py && clear && lsd && sleep 1 && poetry run python main.py && bat salaries.txt && poetry run python main.py && bat salaries.txt'
+abbr -a tks 'tmux kill-server'
+abbr -a bet '/home/xshiba/src/scripts/al0ne/bet.sh'
+abbr -a vol 'playerctl volume'
+abbr -a pf 'cd /home/xshiba/nts/pfgui && clear && ls'
+abbr -a cho 'open /home/xshiba/chordophone/charts/chart2.jpg && exit'
+abbr -a pavu pavucontrol
+abbr -a redshift 'echo gammastep'
+
+abbr -a goddag "/home/xshiba/src/scripts/godnatt_goddag/gd.sh"
+abbr -a godnatt "/home/xshiba/src/scripts/godnatt_goddag/gn.sh"
+abbr -a gn "/home/xshiba/src/scripts/godnatt_goddag/gn.sh"
+abbr -a gd "/home/xshiba/src/scripts/godnatt_goddag/gd.sh"
+abbr -a share '/home/xshiba/src/scripts/al0ne/audio_share.sh'
+abbr -a slang 'gpt could you help me make the following sentence more gangter-like with old harlem slang, "'
+
+abbr -a d1 'dust -d 2'
+abbr -a d2 'dust -d 3'
+abbr -a d3 'dust -d 4'
+abbr -a d4 'dust -d 5'
+abbr -a d5 'dust -d 6'
+
+# abbr -a strrep "string replace -a ' ' '_' 'STR'"
+
+abbr -a cows 'z cows && clear && lsd -1'
+abbr -a cowd 'cd /cows/downloads'
+abbr -a cow 'clear && ~/.config/qutebrowser/userscripts/6x/bdst.sh'
+abbr -a metro '~/src/clones/metronome/src/metronome.py -b'
+# abbr -a cur currencyConverter

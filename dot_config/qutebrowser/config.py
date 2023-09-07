@@ -2084,13 +2084,17 @@ c.url.default_page = 'about:blank'
 ### &-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-& ###
 #& SEARCH ENGINES
 
-# DEFAULT 
+# DEFAULT
 # c.url.searchengines = {'DEFAULT': 'https://you.com/search?q={}'}
 # c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?ia=web&q={}'}
 # c.url.searchengines = {'DEFAULT': 'https://you.com/search?q={}'}
-c.url.searchengines = {'DEFAULT': 'https://www.qwant.com/?theme=1&hc=1&hti=0&vt=0&b=0&s=0&l=en&locale=sv_SE&home=daily&si=0&c=blue&ch=none&eco_suggest=1&q={}&t=web'}
-c.url.searchengines['red'] = 'https://you.com/search?q={}&fromSearchBar=true&tbm=social'
-# c.url.searchengines['red'] = 'https://you.com/search?q={}+reddit&fromSearchBar=true&tbm=social'
+# c.url.searchengines = {'DEFAULT': 'https://www.qwant.com/?theme=1&hc=1&hti=0&vt=0&b=0&s=0&l=en&locale=sv_SE&home=daily&si=0&c=blue&ch=none&eco_suggest=1&q={}&t=web'}
+c.url.searchengines = {'DEFAULT': 'https://searx.tiekoetter.com/search?q={}&category_general=on&language=auto&time_range=&safesearch=0&theme=simple'}
+c.url.searchengines['mo'] = 'https://www.mojeek.com/search?q={}&theme=dark&arc=se&t=20&size=1&hp=minimal&qsba=1&qss=Bing%2CBrave%2CDuckDuckGo%2CEcosia%2CLilo%2CMetager%2CQwant%2CStartpage%2CYou'
+
+# BRAVE
+c.url.searchengines['br'] = 'https://search.brave.com/search?q={}&source=web'
+
 
 # YOU
 # c.url.searchengines['yo'] = 'https://you.com/search?q={}'
@@ -2191,6 +2195,9 @@ c.url.searchengines['let'] = 'https://letterboxd.com/search/{}/'
 c.url.searchengines['pry'] = 'https://pry.sh/{}'
 c.url.searchengines['kk'] = 'http://xxxadulttorrent.org/search/0/0/0/2/{}'
 # c.url.searchengines[''] = ''
+# c.url.searchengines[''] = ''
+# c.url.searchengines[''] = ''
+# c.url.searchengines[''] = ''
 
 
 
@@ -2251,6 +2258,12 @@ config.bind('e71', 'open -b http://nkat.se/jelly')
 config.bind('e72', 'open -b http://jelly.nkat.se/')
 config.bind('ej1', 'open -b http://212.193.3.135:8096')
 config.bind('ej2', 'open -b https://212.193.3.135:8096')
+config.bind('enig0', 'set colors.webpage.darkmode.enabled false;; set --print colors.webpage.darkmode.enabled')
+config.bind('enig1', 'set colors.webpage.darkmode.enabled true;; set --print colors.webpage.darkmode.enabled')
+config.bind('eqb', 'open -b http://212.193.3.135:8080/#/')
+
+
+# c.colors.webpage.darkmode.enabled = False
 
 # GPT
 config.bind('pard', 'open -b https://bard.google.com/')
@@ -2282,9 +2295,12 @@ config.bind('apinv', 'open -b https://apnews.com/hub/ap-investigations')
 config.bind('zft', 'open -b https://www.friatider.se/')
 config.bind('zsyd', 'open -b https://www.sydsvenskan.se/')
 
+## Fender
+config.bind('zfe', 'open -b https://playapp.fender.com/')
+
 # Others
-config.bind('zbook', 'open -b https://old.reddit.com/r/sportsbook/search/?q=of+the+Day&sort=relevance&restrict_sr=on&t=day')
-config.bind('zleo', 'open -b https://www.leovegas.com/sv-se/logga-in?view=loginRegular')
+config.bind('book', 'open -b https://old.reddit.com/r/sportsbook/search/?q=of+the+Day&sort=relevance&restrict_sr=on&t=day')
+config.bind('bet', 'open -b https://www.leovegas.com/sv-se/logga-in?view=loginRegular')
 config.bind('zsgpt', 'open -b https://www.stealthgpt.ai/')
 
 
@@ -2321,15 +2337,16 @@ config.bind('äa', 'open -b https://clients.advinservers.com/clientarea.php')
 config.bind('äb1', 'open -b https://lowendbox.com/')
 config.bind('äb2', 'open -b https://lowendtalk.com/categories/offers')
 
-
 # Binds
 config.bind('<Ctrl+V>', 'open -b {clipboard}')
-config.bind('<Ctrl+M>', 'hint links spawn --detach mpv {hint-url}')
+# config.bind('<Ctrl+M>', 'hint links spawn --detach mpv --audio-device=pulse/audiorelay_Speaker {hint-url}')
 # config.bind("'", 'mode-enter jump_mark')
 # config.bind('+', 'zoom-in')
 # config.bind('-', 'zoom-out')
 # config.bind('.', 'repeat-command')
 # config.bind('/', 'set-cmd-text /')
+
+
 # config.bind(':', 'set-cmd-text :')
 # config.bind(';I', 'hint images tab')
 # config.bind(';O', 'hint links fill :open -t -r {hint-url}')
@@ -2402,10 +2419,10 @@ config.bind('K', 'tab-next')
 # config.bind('L', 'forward')
 # config.bind('N', 'search-prev')
 config.bind('O', 'set-cmd-text -s :open -b')
-config.bind('öö', 'set-cmd-text -s :open -p')
+config.bind('ööwp', 'set-cmd-text -s :open -p')
 config.bind('<Ctrl-o>', 'spawn --userscript /home/xshiba/.config/qutebrowser/userscripts/qtofi tab')
-# config.bind('Pp', 'open -t -- {primary}')
-config.bind('pp', 'open -t -- {clipboard}')
+config.bind('pp', 'open -t -- {primary}')
+config.bind('ppc', 'open -t -- {clipboard}')
 # config.bind('R', 'reload -f')
 # config.bind('Sb', 'bookmark-list --jump')
 # config.bind('Sh', 'history')
@@ -2457,8 +2474,8 @@ config.bind('gm', 'tab-move')
 config.bind('M', 'quickmark-del')
 # config.bind('n', 'search-next')
 # config.bind('o', 'set-cmd-text -s :open')
-# config.bind('pP', 'open -- {primary}')
-config.bind('pp', 'open -- {clipboard}')
+config.bind('pp', 'open -- {primary}')
+config.bind('pP', 'open -- {clipboard}')
 # config.bind('q', 'macro-record')
 config.bind('r', 'reload')
 # config.bind('sf', 'save')
@@ -2685,4 +2702,23 @@ config.bind(',tu', 'spawn --userscript /home/xshiba/.config/qutebrowser/userscri
 
 config.bind(',ly', "yank inline '{title} {url}';; spawn wezterm start --always-new-process -- /home/xshiba/src/scripts/xx/xxle.sh")
 config.bind(',le', 'spawn --userscript /home/xshiba/.config/qutebrowser/userscripts/xx/xxle tab')
+
+
+config.bind('<', 'set-cmd-text :open -b A')
+
+c.url.searchengines['ö-ZOGGEN'] = 'https://hdzog.com/search/?s={}'
+c.url.searchengines['ö-STREAKEN'] = 'https://bdsmstreak.com/search?search={}'
+
+
+# START START START START START START START START
+# config.bind('XX', 'hint links userscript mpv_qqq.sh')
+# config.bind('<Ctrl+x>', 'hint links spawn --detach mpv --audio-device=pulse/audiorelay_Speaker {hint-url}')
+config.bind('XX', 'hint links spawn --detach mpv --audio-device=pulse/audiorelay_Speaker {hint-url}')
+# END END END END END END END END END END END END
+
+config.bind('ööZ', 'set-cmd-text -s :open -b ö-ZOGGEN')
+config.bind('ööB', 'set-cmd-text -s :open -b ö-STREAKEN')
+config.bind('ööT', 'open -b https://www.porntry.com/categories/')
+config.bind('öödB', 'open -b https://dbnaked.com/pictures/content/bdsm/sites/theenglishmansion/top-rated')
+
 

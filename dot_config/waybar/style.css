@@ -334,11 +334,13 @@ window#waybar {
 }
 
 #battery.full:hover {
-  background-color: @teal;
+  /* background-color: @teal; */
 }
 
 #battery.warning {
   color: #f5e0dc;
+  background-color: #000;
+
 }
 
 #battery.warning:hover {
@@ -351,7 +353,7 @@ window#waybar {
 }
 
 #battery.critical:hover {
-  background-color: @maroon;
+  /* background-color: @maroon; */
 }
 
 #battery.charging,
@@ -363,7 +365,7 @@ window#waybar {
 
 #battery.charging:hover,
 #battery.plugged:hover {
-  background-color: @sky;
+  /* background-color: @sky; */
 }
 
 /* -------------------------------------------------------------------------------- */
