@@ -298,7 +298,7 @@ abbr -a rka 'rk salaries.txt && vi main.py && clear && lsd && sleep 1 && poetry 
 abbr -a tks 'tmux kill-server'
 abbr -a bet '/home/xshiba/src/scripts/al0ne/bet.sh'
 abbr -a vol 'playerctl volume'
-abbr -a pf 'cd /home/xshiba/nts/pfgui && clear && ls'
+abbr -a pf 'cd ~/pink/ && clear && lsd --tree --depth 3'
 abbr -a cho 'open /home/xshiba/chordophone/charts/chart2.jpg && exit'
 abbr -a pavu pavucontrol
 abbr -a redshift 'echo gammastep'
@@ -323,3 +323,6 @@ abbr -a cowd 'cd /cows/downloads'
 abbr -a cow 'clear && ~/.config/qutebrowser/userscripts/6x/bdst.sh'
 abbr -a metro '~/src/clones/metronome/src/metronome.py -b'
 # abbr -a cur currencyConverter
+abbr -a uni 'cd ~/uni/y1lp1 && clear && lsd --tree --depth 3'
+abbr -a kde 'exec /usr/lib/kdeconnectd'
+abbr -a eww '/home/xshiba/.config/eww/launch_bar'

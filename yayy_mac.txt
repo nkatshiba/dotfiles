@@ -349,3 +349,14 @@ gpg-tui
 -S currencyconverter
 -S lshw
 -S gcc5
+-S wkhtmltopdf-static
+-S waybar
+-S screenfetch
+-S hardinfo
+-S sysinfo
+-S i-nex
+-S onedrive-abraunegg
+-S iwconfig
+-S wdev
+-S eww
+-S socat
