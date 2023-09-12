@@ -9,6 +9,6 @@ fi
 
 monitors=($(hyprctl monitors -j | jq -r '.[] | .id'))
 for i in "${!monitors[@]}"; do
-	# /home/xshiba/src/clones/eww/target/release/eww open-many bar$i
-	/home/xshiba/src/clones/eww/target/release/eww open-many bar1
+	/home/xshiba/src/clones/eww/target/release/eww open-many bar$i
+	# /home/xshiba/src/clones/eww/target/release/eww open-many bar1
 done
