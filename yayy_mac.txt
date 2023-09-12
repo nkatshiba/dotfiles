@@ -360,3 +360,4 @@ gpg-tui
 -S wdev
 -S eww
 -S socat
+-S tgpt-bin
